@@ -40,3 +40,22 @@
         target: "#sideNav",
     });
 })(jQuery); // End of use strict
+
+// My scripts //
+
+// Under Construction alert
+$("#underConstruction").on("click", function () {
+    Swal.fire({
+        title: "Under Construction!",
+        text: "This functionality is not available, yet. Try something else!",
+        icon: "info",
+        timer: 5000,
+        timerProgressBar: true,
+        confirmButtonText: "OK!"
+    })
+})
+// #Under Construction alert
+
+
+
+
