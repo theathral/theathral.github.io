@@ -57,8 +57,12 @@ $("#underConstruction").on("click", function () {
 // #Under Construction alert
 
 // Scores
-function score1(id) {
+function tabSpace (id) {
     document.getElementById(id).innerHTML += "&emsp;";
+}
+
+function score1(id) {
+    tabSpace(id);
     document.getElementById(id).innerHTML += "<i class='fas fa-circle'></i>";
     document.getElementById(id).innerHTML += "<i class='far fa-circle'></i>";
     document.getElementById(id).innerHTML += "<i class='far fa-circle'></i>";
@@ -67,7 +71,7 @@ function score1(id) {
 }
 
 function score2(id) {
-    document.getElementById(id).innerHTML += "&emsp;";
+    tabSpace(id);
     document.getElementById(id).innerHTML += "<i class='fas fa-circle'></i>";
     document.getElementById(id).innerHTML += "<i class='fas fa-circle'></i>";
     document.getElementById(id).innerHTML += "<i class='far fa-circle'></i>";
@@ -76,7 +80,7 @@ function score2(id) {
 }
 
 function score3(id) {
-    document.getElementById(id).innerHTML += "&emsp;";
+    tabSpace(id);
     document.getElementById(id).innerHTML += "<i class='fas fa-circle'></i>";
     document.getElementById(id).innerHTML += "<i class='fas fa-circle'></i>";
     document.getElementById(id).innerHTML += "<i class='fas fa-circle'></i>";
@@ -85,7 +89,7 @@ function score3(id) {
 }
 
 function score4(id) {
-    document.getElementById(id).innerHTML += "&emsp;";
+    tabSpace(id);
     document.getElementById(id).innerHTML += "<i class='fas fa-circle'></i>";
     document.getElementById(id).innerHTML += "<i class='fas fa-circle'></i>";
     document.getElementById(id).innerHTML += "<i class='fas fa-circle'></i>";
@@ -94,7 +98,7 @@ function score4(id) {
 }
 
 function score5(id) {
-    document.getElementById(id).innerHTML += "&emsp;";
+    tabSpace(id);
     document.getElementById(id).innerHTML += "<i class='fas fa-circle'></i>";
     document.getElementById(id).innerHTML += "<i class='fas fa-circle'></i>";
     document.getElementById(id).innerHTML += "<i class='fas fa-circle'></i>";
@@ -112,7 +116,6 @@ score2('css3');
 score2('javascript');
 score2('php');
 score2('python');
-
 // #Scores
 
 
