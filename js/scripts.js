@@ -58,55 +58,60 @@ $("#underConstruction").on("click", function () {
 
 // Scores
 function score1(id) {
-    document.getElementById(id).innerHTML = "<i class='fas fa-circle'></i>";
-    document.getElementById(id).innerHTML = "<i class='far fa-circle'></i>";
-    document.getElementById(id).innerHTML = "<i class='far fa-circle'></i>";
-    document.getElementById(id).innerHTML = "<i class='far fa-circle'></i>";
-    document.getElementById(id).innerHTML = "<i class='far fa-circle'></i>";
+    document.getElementById(id).innerHTML += "&emsp;";
+    document.getElementById(id).innerHTML += "<i class='fas fa-circle'></i>";
+    document.getElementById(id).innerHTML += "<i class='far fa-circle'></i>";
+    document.getElementById(id).innerHTML += "<i class='far fa-circle'></i>";
+    document.getElementById(id).innerHTML += "<i class='far fa-circle'></i>";
+    document.getElementById(id).innerHTML += "<i class='far fa-circle'></i>";
 }
 
 function score2(id) {
-    document.getElementById(id).innerHTML = "<i class='fas fa-circle'></i>";
-    document.getElementById(id).innerHTML = "<i class='fas fa-circle'></i>";
-    document.getElementById(id).innerHTML = "<i class='far fa-circle'></i>";
-    document.getElementById(id).innerHTML = "<i class='far fa-circle'></i>";
-    document.getElementById(id).innerHTML = "<i class='far fa-circle'></i>";
+    document.getElementById(id).innerHTML += "&emsp;";
+    document.getElementById(id).innerHTML += "<i class='fas fa-circle'></i>";
+    document.getElementById(id).innerHTML += "<i class='fas fa-circle'></i>";
+    document.getElementById(id).innerHTML += "<i class='far fa-circle'></i>";
+    document.getElementById(id).innerHTML += "<i class='far fa-circle'></i>";
+    document.getElementById(id).innerHTML += "<i class='far fa-circle'></i>";
 }
 
 function score3(id) {
-    document.getElementById(id).innerHTML = "<i class='fas fa-circle'></i>";
-    document.getElementById(id).innerHTML = "<i class='fas fa-circle'></i>";
-    document.getElementById(id).innerHTML = "<i class='fas fa-circle'></i>";
-    document.getElementById(id).innerHTML = "<i class='far fa-circle'></i>";
-    document.getElementById(id).innerHTML = "<i class='far fa-circle'></i>";
+    document.getElementById(id).innerHTML += "&emsp;";
+    document.getElementById(id).innerHTML += "<i class='fas fa-circle'></i>";
+    document.getElementById(id).innerHTML += "<i class='fas fa-circle'></i>";
+    document.getElementById(id).innerHTML += "<i class='fas fa-circle'></i>";
+    document.getElementById(id).innerHTML += "<i class='far fa-circle'></i>";
+    document.getElementById(id).innerHTML += "<i class='far fa-circle'></i>";
 }
 
 function score4(id) {
-    document.getElementById(id).innerHTML = "<i class='fas fa-circle'></i>";
-    document.getElementById(id).innerHTML = "<i class='fas fa-circle'></i>";
-    document.getElementById(id).innerHTML = "<i class='fas fa-circle'></i>";
-    document.getElementById(id).innerHTML = "<i class='fas fa-circle'></i>";
-    document.getElementById(id).innerHTML = "<i class='far fa-circle'></i>";
+    document.getElementById(id).innerHTML += "&emsp;";
+    document.getElementById(id).innerHTML += "<i class='fas fa-circle'></i>";
+    document.getElementById(id).innerHTML += "<i class='fas fa-circle'></i>";
+    document.getElementById(id).innerHTML += "<i class='fas fa-circle'></i>";
+    document.getElementById(id).innerHTML += "<i class='fas fa-circle'></i>";
+    document.getElementById(id).innerHTML += "<i class='far fa-circle'></i>";
 }
 
 function score5(id) {
-    document.getElementById(id).innerHTML = "<i class='fas fa-circle'></i>";
-    document.getElementById(id).innerHTML = "<i class='fas fa-circle'></i>";
-    document.getElementById(id).innerHTML = "<i class='fas fa-circle'></i>";
-    document.getElementById(id).innerHTML = "<i class='fas fa-circle'></i>";
-    document.getElementById(id).innerHTML = "<i class='fas fa-circle'></i>";
+    document.getElementById(id).innerHTML += "&emsp;";
+    document.getElementById(id).innerHTML += "<i class='fas fa-circle'></i>";
+    document.getElementById(id).innerHTML += "<i class='fas fa-circle'></i>";
+    document.getElementById(id).innerHTML += "<i class='fas fa-circle'></i>";
+    document.getElementById(id).innerHTML += "<i class='fas fa-circle'></i>";
+    document.getElementById(id).innerHTML += "<i class='fas fa-circle'></i>";
 }
 
-score1('java');
-score1('word');
-score1('excel');
-score1('powerpoint');
-score1('bootstrap4');
-score1('html5');
-score1('css3');
-score1('javascript');
-score1('php');
-score1('python');
+score4('java');
+score4('word');
+score4('excel');
+score4('powerpoint');
+score3('bootstrap4');
+score2('html5');
+score2('css3');
+score2('javascript');
+score2('php');
+score2('python');
 
 // #Scores
 
