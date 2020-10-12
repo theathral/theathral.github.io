@@ -129,9 +129,9 @@ score2('laravel');
 score2('c');
 
 
-score4('word');
-score4('excel');
-score4('powerpoint');
+score5('word');
+score5('excel');
+score5('powerpoint');
 score4('latex');
 score3('github');
 score2('linux');
