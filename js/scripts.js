@@ -107,15 +107,23 @@ function score5(id) {
 }
 
 score4('java');
+score4('android');
+score3('bootstrap4');
+score3('html5');
+score3('css3');
+score3('javascript');
+score3('php');
+score3('python');
+score2('laravel');
+score2('c');
+
+
 score4('word');
 score4('excel');
 score4('powerpoint');
-score3('bootstrap4');
-score2('html5');
-score2('css3');
-score2('javascript');
-score2('php');
-score2('python');
+score4('latex');
+score3('github');
+score2('linux');
 // #Scores
 
 
