@@ -44,7 +44,18 @@
 // My scripts //
 
 // Under Construction alert
-$("#underConstruction").on("click", function () {
+$(".underConstruction").on("click", function () {
+    Swal.fire({
+        title: "Υπό Κατασκευή!",
+        text: "Αυτή η δυνατότητα δεν είναι ακόμα διαθέσιμη. Δοκιμάστε κάτι διαφορετικό!",
+        icon: "info",
+        timer: 5000,
+        timerProgressBar: true,
+        confirmButtonText: "ΟΚ!"
+    })
+})
+
+$(".underConstructionEn").on("click", function () {
     Swal.fire({
         title: "Under Construction!",
         text: "This functionality is not available, yet. Try something else!",
@@ -125,7 +136,3 @@ score4('latex');
 score3('github');
 score2('linux');
 // #Scores
-
-
-
-
