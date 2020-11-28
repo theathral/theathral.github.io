@@ -118,7 +118,8 @@ function score5(id) {
 }
 
 score4('java');
-score4('android');
+score4('sql');
+score3('android');
 score3('bootstrap4');
 score3('html5');
 score3('css3');
@@ -133,6 +134,6 @@ score5('word');
 score5('excel');
 score5('powerpoint');
 score4('latex');
-score3('github');
+score4('github');
 score2('linux');
 // #Scores
