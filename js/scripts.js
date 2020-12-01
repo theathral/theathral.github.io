@@ -125,6 +125,7 @@ score3('html5');
 score3('css3');
 score3('javascript');
 score3('php');
+score3('r');
 score3('python');
 score2('laravel');
 score2('c');
