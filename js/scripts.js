@@ -7,7 +7,7 @@
     "use strict"; // Start of use strict
 
     // Smooth scrolling using jQuery easing
-    $('a._js-scroll-trigger[href*="#"]:not([href="#"])').click(function () {
+    $('a.js-scroll-trigger[href*="#"]:not([href="#"])').click(function () {
         if (
             location.pathname.replace(/^\//, "") ===
                 this.pathname.replace(/^\//, "") &&
@@ -31,7 +31,7 @@
     });
 
     // Closes responsive menu when a scroll trigger link is clicked
-    $("._js-scroll-trigger").click(function () {
+    $(".js-scroll-trigger").click(function () {
         $(".navbar-collapse").collapse("hide");
     });
 
