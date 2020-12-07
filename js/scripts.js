@@ -3,14 +3,14 @@
     * Copyright 2013-2020 Start Bootstrap
     * Licensed under MIT (https://github.com/StartBootstrap/startbootstrap-resume/blob/master/LICENSE)
     */
-    (function ($) {
+(function ($) {
     "use strict"; // Start of use strict
 
     // Smooth scrolling using jQuery easing
     $('a.js-scroll-trigger[href*="#"]:not([href="#"])').click(function () {
         if (
             location.pathname.replace(/^\//, "") ===
-                this.pathname.replace(/^\//, "") &&
+            this.pathname.replace(/^\//, "") &&
             location.hostname === this.hostname
         ) {
             var target = $(this.hash);
@@ -68,7 +68,7 @@ $(".underConstructionEn").on("click", function () {
 // #Under Construction alert
 
 // Scores
-function tabSpace (id) {
+function tabSpace(id) {
     document.getElementById(id).innerHTML += "&emsp;";
 }
 
@@ -138,3 +138,53 @@ score4('latex');
 score4('github');
 score2('linux');
 // #Scores
+
+
+// Work Experience
+function workExperienceDiv(workExp) {
+    let work = JSON.parse(workExp)
+    $('<h3/>').addClass('mb-5').append(work.title.toString()).appendTo('#workExperienceContent');
+
+    // workExp.content.forEach(item => workExperienceSingle(item));
+}
+
+function workExperienceSingle(item) {
+    $('<div/>').addClass(['d-flex', 'flex-column', 'flex-column', 'flex-md-row', 'justify-content-between', 'mb-5']).append(
+        $('<div/>').addClass('flex-grow-1').append(
+            $('<h4/>').addClass('mb-0').append('Open Sea Lifeguard'),
+            $('<div/>').addClass(['subheading', 'mb-3']).append('BAYLINE SERVICES'),
+            $('<p/>').append('Open Sea Lifeguard at several beaches of Chalkidiki'),
+        ),
+        $('<div/>').addClass('flex-shrink-0').append(
+            $('<span/>').addClass('text-info').append('September 2020')
+        )
+    ).appendTo('#workExperienceContent')
+}
+
+// #Work Experience
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
