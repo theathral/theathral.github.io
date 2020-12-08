@@ -67,91 +67,37 @@ $(".underConstructionEn").on("click", function () {
 })
 // #Under Construction alert
 
+
 // Scores
-function tabSpace(id) {
-    document.getElementById(id).innerHTML += "&emsp;";
+const MAX_GRADE = 5
+
+function score(grade) {
+    let str = '&emsp;';
+
+    for (let i = 0; i < grade; i++) {
+        str += '<i class="fas fa-circle"></i>';
+    }
+
+    for (let i = grade; i < MAX_GRADE; i++) {
+        str += '<i class="far fa-circle"></i>';
+    }
+
+    return str;
 }
 
-function score1(id) {
-    tabSpace(id);
-    document.getElementById(id).innerHTML += "<i class='fas fa-circle'></i>";
-    document.getElementById(id).innerHTML += "<i class='far fa-circle'></i>";
-    document.getElementById(id).innerHTML += "<i class='far fa-circle'></i>";
-    document.getElementById(id).innerHTML += "<i class='far fa-circle'></i>";
-    document.getElementById(id).innerHTML += "<i class='far fa-circle'></i>";
-}
-
-function score2(id) {
-    tabSpace(id);
-    document.getElementById(id).innerHTML += "<i class='fas fa-circle'></i>";
-    document.getElementById(id).innerHTML += "<i class='fas fa-circle'></i>";
-    document.getElementById(id).innerHTML += "<i class='far fa-circle'></i>";
-    document.getElementById(id).innerHTML += "<i class='far fa-circle'></i>";
-    document.getElementById(id).innerHTML += "<i class='far fa-circle'></i>";
-}
-
-function score3(id) {
-    tabSpace(id);
-    document.getElementById(id).innerHTML += "<i class='fas fa-circle'></i>";
-    document.getElementById(id).innerHTML += "<i class='fas fa-circle'></i>";
-    document.getElementById(id).innerHTML += "<i class='fas fa-circle'></i>";
-    document.getElementById(id).innerHTML += "<i class='far fa-circle'></i>";
-    document.getElementById(id).innerHTML += "<i class='far fa-circle'></i>";
-}
-
-function score4(id) {
-    tabSpace(id);
-    document.getElementById(id).innerHTML += "<i class='fas fa-circle'></i>";
-    document.getElementById(id).innerHTML += "<i class='fas fa-circle'></i>";
-    document.getElementById(id).innerHTML += "<i class='fas fa-circle'></i>";
-    document.getElementById(id).innerHTML += "<i class='fas fa-circle'></i>";
-    document.getElementById(id).innerHTML += "<i class='far fa-circle'></i>";
-}
-
-function score5(id) {
-    tabSpace(id);
-    document.getElementById(id).innerHTML += "<i class='fas fa-circle'></i>";
-    document.getElementById(id).innerHTML += "<i class='fas fa-circle'></i>";
-    document.getElementById(id).innerHTML += "<i class='fas fa-circle'></i>";
-    document.getElementById(id).innerHTML += "<i class='fas fa-circle'></i>";
-    document.getElementById(id).innerHTML += "<i class='fas fa-circle'></i>";
-}
-
-function score5new() {
-    return "&emsp;"
-        + "<i class='fas fa-circle'></i>"
-        + "<i class='fas fa-circle'></i>"
-        + "<i class='fas fa-circle'></i>"
-        + "<i class='fas fa-circle'></i>"
-        + "<i class='fas fa-circle'></i>";
-}
-
-score4('java');
-score4('sql');
-score3('android');
-score3('bootstrap4');
-score3('html5');
-score3('css3');
-score3('javascript');
-score3('php');
-score3('r');
-score3('python');
-score2('laravel');
-score2('c');
-
-
-score5('word');
-score5('excel');
-score5('powerpoint');
-score4('latex');
-score4('github');
-score2('linux');
 // #Scores
 
 
+// Json Files
+
+// #Json Files
+
+
 // Work Experience
-function workExperienceDiv(workExp) {
-    $('<h3/>').addClass('mb-5').append('Work Experience').appendTo('#workExperienceContent');
+const WORK_EXP_ID = 'workExperienceContent';
+
+function workExperienceDiv(json) {
+    $('<h3/>').addClass('mb-5').append('Work Experience').appendTo('#' + WORK_EXP_ID);
 
     workExperienceSingle('');
     // workExp.content.forEach(item => workExperienceSingle(item));
@@ -170,15 +116,17 @@ function workExperienceSingle(item) {
         $('<div/>').addClass('flex-shrink-0').append(
             $('<span/>').addClass('text-info').append('September 2020')
         )
-    ).appendTo('#workExperienceContent')
+    ).appendTo('#' + WORK_EXP_ID)
 }
 
 // #Work Experience
 
 
 // Voluntary Experience
-function voluntaryExperienceDiv(workExp) {
-    $('<h3/>').addClass('mb-5').append('Voluntary Experience').appendTo('#voluntaryExperienceContent');
+const VOLUNTARY_EXP_ID = 'voluntaryExperienceContent';
+
+function voluntaryExperienceDiv(json) {
+    $('<h3/>').addClass('mb-5').append('Voluntary Experience').appendTo('#' + VOLUNTARY_EXP_ID);
 
     voluntaryExperienceSingle('');
     // workExp.content.forEach(item => workExperienceSingle(item));
@@ -197,15 +145,17 @@ function voluntaryExperienceSingle(item) {
         $('<div/>').addClass('flex-shrink-0').append(
             $('<span/>').addClass('text-info').append('September 2020 - October 2020')
         )
-    ).appendTo('#voluntaryExperienceContent')
+    ).appendTo('#' + VOLUNTARY_EXP_ID)
 }
 
 // #Voluntary Experience
 
 
 // Education
-function educationDiv(workExp) {
-    $('<h3/>').addClass('mb-5').append('Education').appendTo('#educationContent');
+const EDUCATION_ID = 'educationContent';
+
+function educationDiv(json) {
+    $('<h3/>').addClass('mb-5').append('Education').appendTo('#' + EDUCATION_ID);
 
     educationDivSingle('');
     // workExp.content.forEach(item => workExperienceSingle(item));
@@ -239,15 +189,17 @@ function educationDivSingle(item) {
         $('<div/>').addClass('flex-shrink-0').append(
             $('<span/>').addClass('text-info').append('October 2016 - November 2020')
         )
-    ).appendTo('#educationContent')
+    ).appendTo('#' + EDUCATION_ID)
 }
 
 // #Education
 
 
 // Certifications
-function certificationsDiv(workExp) {
-    $('<h3/>').addClass('mb-5').append('Certifications').appendTo('#certificationsContent');
+const CERTIFICATION_ID = 'certificationsContent';
+
+function certificationsDiv(json) {
+    $('<h3/>').addClass('mb-5').append('Certifications').appendTo('#' + CERTIFICATION_ID);
 
     certificationsDivSingle('');
     // workExp.content.forEach(item => workExperienceSingle(item));
@@ -271,64 +223,75 @@ function certificationsDivSingle(item) {
         $('<div/>').addClass('flex-shrink-0').append(
             $('<span/>').addClass('text-info').append('October 2016 - November 2020')
         )
-    ).appendTo('#certificationsContent')
+    ).appendTo('#' + CERTIFICATION_ID)
 }
 
 // #Certifications
 
 
 // Skills
-function skillsDiv(workExp) {
-    $('<h3/>').addClass('mb-5').append('Skills').appendTo('#skillsContent');
+const SKILL_ID = 'skillsContent';
+const SKILL_SECTION_ID = 'skillsSection';
 
-    // skillsDivSection('');
+function skillsDiv(json) {
+    $('<h3/>').addClass('mb-5').append('Skills').appendTo('#' + SKILL_ID);
+
+    skillsDivSection('');
     // workExp.content.forEach(item => workExperienceSingle(item));
 }
 
-function skillsDivSection(items) {
-    $('<div/>').addClass(['subheading', 'mb-3']).append('Languages');
+function skillsDivSection(sections) {
+    $('<div/>').addClass(['subheading', 'mb-3']).append('Languages').appendTo('#' + SKILL_ID);
 
-    $('<table/>').addClass(['ml-3', 'mb-3']).append(
-        skillsDivSingle('')
-        // workExp.content.forEach(item => workExperienceSingle(item));
-    )
+    let cur_skill_id = SKILL_SECTION_ID + '-' + '1'
+    $('<table/>').addClass(['ml-3', 'mb-3']).attr('id', cur_skill_id).appendTo('#' + SKILL_ID)
+
+    skillsDivSingle(cur_skill_id, '')
+
+    // workExp.content.forEach(item => workExperienceSingle(item));
 }
 
-function skillsDivSingle(item) {
+function skillsDivSingle(id, item) {
     $('<tr/>').append(
         $('<td/>').append('<i class="fab fa-java"></i>' + ' ' + 'Java'),
-        $('<td/>').append(score5new())
-    )
-
-    // workExp.content.forEach(item => workExperienceSingle(item));
+        $('<td/>').append(score(4))
+    ).appendTo('#' + id);
 }
 
 // #Skills
+
+
+// Interests
+const INTERESTS_ID = 'interestsContent';
+const INTERESTS_SECTION_ID = 'interestsSection';
+
+function interestsDiv(json) {
+    $('<h3/>').addClass('mb-5').append('Interests').appendTo('#' + INTERESTS_ID);
+
+    $('<ul/>').addClass(['fa-ul', 'mb-0']).attr('id', INTERESTS_SECTION_ID)
+        .appendTo('#' + INTERESTS_ID)
+
+    interestsDivSingle('')
+
+    // workExp.content.forEach(item => workExperienceSingle(item));
+}
+
+function interestsDivSingle(item) {
+    $('<li/>').append(
+        $('<span/>').addClass('fa-li')
+            .append('<i class="fas fa-camera"></i>'),
+        'Photography'
+    ).appendTo('#' + INTERESTS_SECTION_ID);
+
+    // workExp.content.forEach(item => workExperienceSingle(item));
+}
+
+// #Interests
 
 
 workExperienceDiv('');
 voluntaryExperienceDiv('');
 educationDiv('');
 certificationsDiv('');
-// skillsDiv('');
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+skillsDiv('');
+interestsDiv('');
