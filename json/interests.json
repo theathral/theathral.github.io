@@ -1,0 +1,30 @@
+{
+  "title": "Interests",
+  "contents": [
+    {
+      "fa": "<i class=\"fas fa-camera\"></i>",
+      "skill": "Photography"
+    },
+    {
+      "fa": "<i class=\"fas fa-plane\"></i>",
+      "skill": "Travelling"
+    },
+    {
+      "fa": "<i class=\"fas fa-heartbeat\"></i>",
+      "skill": "Fitness"
+    },
+    {
+      "fa": "<i class=\"fas fa-users\"></i>",
+      "skill": "Volunteering"
+    },
+    {
+      "fa": "<i class=\"fas fa-table-tennis\"></i>",
+      "skill": "Tennis"
+    },
+    {
+      "fa": "<i class=\"fas fa-basketball-ball\"></i>",
+      "skill": "Basketball"
+    }
+
+  ]
+}
