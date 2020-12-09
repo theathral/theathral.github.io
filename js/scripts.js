@@ -304,6 +304,9 @@ function skillsDivSingle(id, item) {
 // Interests
 const INTERESTS_ID = 'interestsContent';
 const INTERESTS_SECTION_ID = 'interestsSection';
+fetch("../json/interests.json")
+    .then(res => res.json())
+    .then(data => interestsDiv(data))
 
 function interestsDiv(json) {
     $('<h3/>').addClass('mb-5').append('Interests').appendTo('#' + INTERESTS_ID);
@@ -311,19 +314,17 @@ function interestsDiv(json) {
     $('<ul/>').addClass(['fa-ul', 'mb-0']).attr('id', INTERESTS_SECTION_ID)
         .appendTo('#' + INTERESTS_ID)
 
-    interestsDivSingle('')
-
-    // workExp.content.forEach(item => workExperienceSingle(item));
+    let contents = json.contents;
+    for (let i = 0; i < contents.length; i++) {
+        interestsDivSingle(contents[i]);
+    }
 }
 
 function interestsDivSingle(item) {
     $('<li/>').append(
-        $('<span/>').addClass('fa-li')
-            .append('<i class="fas fa-camera"></i>'),
-        'Photography'
+        $('<span/>').addClass('fa-li').append(item.fa),
+        item.interest
     ).appendTo('#' + INTERESTS_SECTION_ID);
-
-    // workExp.content.forEach(item => workExperienceSingle(item));
 }
 
 // #Interests
