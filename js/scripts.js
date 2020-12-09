@@ -186,15 +186,28 @@ function voluntaryExperienceSingle(item) {
 
 // Education
 const EDUCATION_ID = 'educationContent';
+fetch("../json/education.json")
+    .then(res => res.json())
+    .then(data => educationDiv(data))
 
 function educationDiv(json) {
-    $('<h3/>').addClass('mb-5').append('Education').appendTo('#' + EDUCATION_ID);
+    $('<h3/>').addClass('mb-5').append(json.title).appendTo('#' + EDUCATION_ID);
 
+    let contents = json.contents;
+    for (let i = 0; i < contents.length; i++) {
+        educationDivSingle(contents[i], json.title, json.min_duration_title, json.fa_min_duration, json.grade_title, json.fa_grade);
+    }
     educationDivSingle('');
-    // workExp.content.forEach(item => workExperienceSingle(item));
 }
 
-function educationDivSingle(item) {
+function educationDivSingle(item, title, min_duration_title, fa_min_duration, grade_title, fa_grade) {
+    let fa = item.degree.fa;
+    let diploma = item.degree.diploma;
+    let organization = item.organization;
+    let info = item.info[0]; ////////////////
+    let grade = item.grade;
+    let date = item.date;
+
     $('<div/>').addClass(['d-flex', 'flex-column', 'flex-column', 'flex-md-row', 'justify-content-between', 'mb-5']).append(
         $('<div/>').addClass('flex-grow-1').append(
             $('<h4/>').addClass('mb-0')
@@ -230,31 +243,40 @@ function educationDivSingle(item) {
 
 // Certifications
 const CERTIFICATION_ID = 'certificationsContent';
+fetch("../json/certifications.json")
+    .then(res => res.json())
+    .then(data => certificationsDiv(data))
 
 function certificationsDiv(json) {
-    $('<h3/>').addClass('mb-5').append('Certifications').appendTo('#' + CERTIFICATION_ID);
+    $('<h3/>').addClass('mb-5').append(json.title).appendTo('#' + CERTIFICATION_ID);
 
-    certificationsDivSingle('');
-    // workExp.content.forEach(item => workExperienceSingle(item));
+    let contents = json.contents;
+    for (let i = 0; i < contents.length; i++) {
+        certificationsDivSingle(contents[i], json.grade_title);
+    }
 }
 
-function certificationsDivSingle(item) {
+function certificationsDivSingle(item, grade_title) {
+    let fa = item.degree.fa;
+    let diploma = item.degree.diploma;
+    let organization = item.organization;
+    let info = item.info[0]; //////////////////////////
+    let grade = item.grade;
+    let date = item.date;
+
     $('<div/>').addClass(['d-flex', 'flex-column', 'flex-column', 'flex-md-row', 'justify-content-between', 'mb-5']).append(
         $('<div/>').addClass('flex-grow-1').append(
-            $('<h4/>').addClass('mb-0')
-                .append('<i class="fas fa-user-graduate"></i>' + ' ' + 'Open Water Lifeguard Degree'),
-            $('<div/>').addClass(['subheading', 'mb-3'])
-                .append('BAYLINE SERVICES'),
+            $('<h4/>').addClass('mb-0').append(fa + ' ' + diploma),
+            $('<div/>').addClass(['subheading', 'mb-3']).append(organization),
             $('<ul/>').addClass(['fa-ul', 'mb-3']).append(
                 $('<li/>').append(
-                    $('<span>').addClass('fa-li')
-                        .append('<i class="fas fa-first-aid">'),
-                    ' ' + 'First Aid Knowledge'
+                    $('<span>').addClass('fa-li').append(info.fa),
+                    ' ' + info.text
                 ),
             )
         ),
         $('<div/>').addClass('flex-shrink-0').append(
-            $('<span/>').addClass('text-info').append('October 2016 - November 2020')
+            $('<span/>').addClass('text-info').append(date)
         )
     ).appendTo('#' + CERTIFICATION_ID)
 }
@@ -270,7 +292,7 @@ fetch("../json/skills.json")
     .then(data => skillsDiv(data))
 
 function skillsDiv(json) {
-    $('<h3/>').addClass('mb-5').append('Skills').appendTo('#' + SKILL_ID);
+    $('<h3/>').addClass('mb-5').append(json.title).appendTo('#' + SKILL_ID);
 
     let sections = json.contents;
     for (let i = 0; i < sections.length; i++) {
@@ -309,7 +331,7 @@ fetch("../json/interests.json")
     .then(data => interestsDiv(data))
 
 function interestsDiv(json) {
-    $('<h3/>').addClass('mb-5').append('Interests').appendTo('#' + INTERESTS_ID);
+    $('<h3/>').addClass('mb-5').append(json.title).appendTo('#' + INTERESTS_ID);
 
     $('<ul/>').addClass(['fa-ul', 'mb-0']).attr('id', INTERESTS_SECTION_ID)
         .appendTo('#' + INTERESTS_ID)

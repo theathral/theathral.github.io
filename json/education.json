@@ -1,9 +1,9 @@
 {
   "title": "Education",
-  "min-duration-title": "Minimum Attendance Duration",
-  "fa-min-duration": "<i class='fas fa-hourglass-half'></i>",
-  "grade-title": "Grade",
-  "fa-grade": "<i class='fas fa-certificate'></i>",
+  "min_duration_title": "Minimum Attendance Duration",
+  "fa_min_duration": "<i class='fas fa-hourglass-half'></i>",
+  "grade_title": "Grade",
+  "fa_grade": "<i class='fas fa-certificate'></i>",
   "contents": [
     {
       "degree": {

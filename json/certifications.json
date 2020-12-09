@@ -1,6 +1,6 @@
 {
   "title": "Certifications & Seminars",
-  "grade-title": "Grade",
+  "grade_title": "Grade",
   "contents": [
     {
       "degree": {
@@ -9,9 +9,12 @@
       },
       "organization": "BAYLINE SERVICES",
       "info": [
-        "<i class='fas fa-first-aid'></i> First Aid Knowledge"
+        {
+          "fa": "<i class='fas fa-first-aid'></i>",
+          "text": "First Aid Knowledge"
+        }
       ],
-      "grade": "",
+      "grade": null,
       "date": "November 2018"
     }
   ]
