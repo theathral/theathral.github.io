@@ -89,24 +89,24 @@ function score(grade) {
 
 
 // Json Files
-async function getData() {
-    return new Promise((resolve, reject) => {
-        fetch('../json/skills.json')
-            .then(response => {
-                return response.json();
-            }).then(data_from_fetched => {
-            let data = data_from_fetched.results;
-            resolve(data);
-        })
-    })
-}
-
-let movies = 's dfg sdghsrtf';
-getData().then(data => {
-    movies = data
-});
-
-console.log(movies);
+// async function getData() {
+//     return new Promise((resolve, reject) => {
+//         fetch('../json/skills.json')
+//             .then(response => {
+//                 return response.json();
+//             }).then(data_from_fetched => {
+//             let data = data_from_fetched.results;
+//             resolve(data);
+//         })
+//     })
+// }
+//
+// let movies = 's dfg sdghsrtf';
+// getData().then(data => {
+//     movies = data
+// });
+//
+// console.log(movies);
 
 
 // async function jsonFile() {
@@ -265,29 +265,36 @@ function certificationsDivSingle(item) {
 // Skills
 const SKILL_ID = 'skillsContent';
 const SKILL_SECTION_ID = 'skillsSection';
+fetch("../json/skills.json")
+    .then(res => res.json())
+    .then(data => skillsDiv(data))
 
 function skillsDiv(json) {
     $('<h3/>').addClass('mb-5').append('Skills').appendTo('#' + SKILL_ID);
 
-    skillsDivSection('');
-    // workExp.content.forEach(item => workExperienceSingle(item));
+    let sections = json.contents;
+    for (let i = 0; i < sections.length; i++) {
+        skillsDivSection(i, sections[i]);
+    }
 }
 
-function skillsDivSection(sections) {
-    $('<div/>').addClass(['subheading', 'mb-3']).append('Languages').appendTo('#' + SKILL_ID);
+function skillsDivSection(id, sections) {
+    $('<div/>').addClass(['subheading', 'mb-3']).append(sections.part).appendTo('#' + SKILL_ID);
 
-    let cur_skill_id = SKILL_SECTION_ID + '-' + '1'
+    let cur_skill_id = SKILL_SECTION_ID + '-' + id;
     $('<table/>').addClass(['ml-3', 'mb-3']).attr('id', cur_skill_id).appendTo('#' + SKILL_ID)
 
-    skillsDivSingle(cur_skill_id, '')
-
-    // workExp.content.forEach(item => workExperienceSingle(item));
+    let items = sections.items;
+    for (let i = 0; i < items.length; i++) {
+        skillsDivSingle(cur_skill_id, items[i]);
+    }
 }
 
 function skillsDivSingle(id, item) {
+    console.log(id);
     $('<tr/>').append(
-        $('<td/>').append('<i class="fab fa-java"></i>' + ' ' + 'Java'),
-        $('<td/>').append(score(4))
+        $('<td/>').append(item.fa + ' ' + item.skill),
+        $('<td/>').append(score(item.grade))
     ).appendTo('#' + id);
 }
 
@@ -321,10 +328,10 @@ function interestsDivSingle(item) {
 
 // #Interests
 
-
-workExperienceDiv('');
-voluntaryExperienceDiv('');
-educationDiv('');
-certificationsDiv('');
-skillsDiv('');
-interestsDiv('');
+//
+// workExperienceDiv('');
+// voluntaryExperienceDiv('');
+// educationDiv('');
+// certificationsDiv('');
+// skillsDiv('');
+// interestsDiv('');
