@@ -89,6 +89,39 @@ function score(grade) {
 
 
 // Json Files
+async function getData() {
+    return new Promise((resolve, reject) => {
+        fetch('../json/skills.json')
+            .then(response => {
+                return response.json();
+            }).then(data_from_fetched => {
+            let data = data_from_fetched.results;
+            resolve(data);
+        })
+    })
+}
+
+let movies = 's dfg sdghsrtf';
+getData().then(data => {
+    movies = data
+});
+
+console.log(movies);
+
+
+// async function jsonFile() {
+//     const skillResponse = await fetch('../json/skills.json');
+//     return await skillResponse.then(response => response.json());
+// }
+//
+// console.log(jsonFile());
+
+
+// var json = $.getJSON("../json/skills.json");
+// var obj = JSON.parse(json);
+// var obj = JSON.stringify(json);
+// console.log(json.responseJSON);
+
 
 // #Json Files
 
