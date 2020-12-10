@@ -1,38 +1,38 @@
 {
-  "title": "Work Experience",
+  "title": "Εργασιακή Εμπειρία",
   "contents": [
     {
-      "position": "Open Water Lifeguard",
+      "position": "Ναυαγοσώστης Ανοιχτής Θαλάσσης",
       "company": "BAYLINE SERVICES",
       "info": [
         {
           "fa" : "<i class='fas fa-water'></i>",
-          "text" : "Open Water Lifeguard at Chalkidiki, Greece"
+          "text" : "Ναυαγοσώστης Ανοιχτής Θαλάσσης στη Χαλκιδική"
         }
       ],
-      "date": "September 2020"
+      "date": "Σεπτέμβριος 2020"
     },
     {
-      "position": "Pool Lifeguard",
+      "position": "Ναυαγοσώστης Πισίσας",
       "company": "Yuppi Camp",
       "info": [
         {
           "fa" : "<i class='fas fa-swimming-pool'></i>",
-          "text" : "Pool Lifeguard at children's camp"
+          "text" : "Ναυαγοσώστης Πισίνας σε παιδική κατασήνωση"
         }
       ],
-      "date": "July 2020 - August 2020"
+      "date": "Ιούλιος 2020 - Αύγουστος 2020"
     },
     {
-      "position": "Open Water Lifeguard",
+      "position": "Ναυαγοσώστης Ανοιχτής Θαλάσσης",
       "company": "BAYLINE SERVICES",
       "info": [
         {
           "fa" : "<i class='fas fa-water'></i>",
-          "text" : "Open Water Lifeguard at Skiathos, Greece"
+          "text" : "Ναυαγοσώστης Ανοιχτής Θαλάσσης στη Σκιάθο"
         }
       ],
-      "date": "June 2019 - October 2019"
+      "date": "Ιούνιος 2019 - Οκτώβριος 2019"
     }
   ]
 }

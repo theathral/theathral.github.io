@@ -73,7 +73,6 @@ $(".underConstructionEn").on("click", function () {
 const SIDEBAR_ID = 'sideBarSections';
 
 function initDiv(section_id, content_id, title) {
-
     $('#' + content_id).append(
         $('<h3/>').addClass('mb-5').append(title)
     );
@@ -111,24 +110,25 @@ const PATH = 'json/';
 window.addEventListener('load', function () {
     let lang = window.navigator.language.toLowerCase();
 
-    if (lang.match('el') || lang.match('el')) {
+    if (lang.match('gr') || lang.match('el')) {
         changeLang('el');
     } else {
         changeLang('en');
     }
 })
 
-document.getElementById(ABOUT_LANG_ID).addEventListener('click', function langLink() {
+document.getElementById(ABOUT_LANG_ID).addEventListener('click', function () {
     const element = $('#' + ABOUT_LANG_ID);
 
     if (element.hasClass('en')) {
         element.removeClass('en');
-        changeLang('el');
+        changeLang('en');
     } else if (element.hasClass('el')) {
         element.removeClass('el');
-        changeLang('en');
+        changeLang('el');
     } else {
         console.log('Error in language file');
+        alert('Error in language file');
     }
 });
 

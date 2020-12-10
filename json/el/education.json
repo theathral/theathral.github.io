@@ -23,26 +23,26 @@
           "text": "Βαθμός: 8,42/10"
         }
       ],
-      "date": "October 2016 - November 2020"
+      "date": "Οκτώβριος 2016 - Νοέμβριος 2020"
     },
     {
-      "diploma": "Erasmus+ for Studies - Computing Science",
+      "diploma": "Φοιτητής Erasmus+ για Σπουδές - Computing Science",
       "organization": "University of Groningen",
       "details": [],
       "info": [],
-      "date": "February 2020 - July 2020"
+      "date": "Φεβρουάριος 2020 - Ιούλιος 2020"
     },
     {
-      "diploma": "High School Diploma",
-      "organization": "5<sup>th</sup> High School of Kalamaria, Thessaloniki",
+      "diploma": "Απολυτήριο Λυκείου",
+      "organization": "5<sup>ο</sup> Λύκειο Καλαμαριάς, Θεσσαλονίκη",
       "details": [],
       "info": [
         {
           "fa": "<i class='fas fa-certificate'></i>",
-          "text": "Grade: 19.3/20"
+          "text": "Βαθμός: 19.3/20"
         }
       ],
-      "date": "September 2013 - June 2016"
+      "date": "Σεπτέμβριος 2013 - Ιούνιος 2016"
     }
   ]
 }

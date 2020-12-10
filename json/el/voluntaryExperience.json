@@ -1,22 +1,22 @@
 {
-  "title": "Voluntary Experience",
+  "title": "Εθελοντική Εργασία",
   "contents": [
     {
-      "position": "Reception of Freshmen",
-      "company": "Volunteer Coordination Office, Aristotle University of Thessaloniki",
+      "position": "Υποδοχή Πρωτοετών",
+      "company": "Γραφείο Συντονισμού Εθελοντών και Φοιτητικών Δράσεων ΑΠΘ",
       "info": [],
-      "date": "September 2020 - October 2020"
+      "date": "Σεπτεμβρίος 2020 - Οκτώβριος 2020"
     },
     {
-      "position": "Support for Academic Activities",
-      "company": "IT Center of the Aristotle University of Thessaloniki",
+      "position": "Γραφείο Υποστήριξης Ακαδημαϊκών Δραστηριοτήτων",
+      "company": "Κέντρο Ηλεκτρονικής Διακυβέρνησης ΑΠΘ",
       "info": [
         {
           "fa": "<i class='fas fa-desktop'></i>",
           "text": "////////////////////////"
         }
       ],
-      "date": "December 2017 - July 2018"
+      "date": "Δεκέμβριος 2017 - Ιούλιος 2018"
     }
   ]
 }

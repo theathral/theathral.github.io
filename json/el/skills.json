@@ -1,23 +1,23 @@
 {
-  "title": "Skills",
+  "title": "Δεξιότητες",
   "contents": [
     {
-      "part": "Languages",
+      "part": "Γλώσσες",
       "items": [
         {
           "fa": "<i class='fas fa-check'></i>",
-          "skill": "Greek - Native",
+          "skill": "Ελληνικά - Μητρική",
           "grade": 5
         },
         {
           "fa": "<i class='fas fa-check'></i>",
-          "skill": "English - ECPE (2015)",
+          "skill": "Αγγλικά - ECPE (2015)",
           "grade": 4
         }
       ]
     },
     {
-      "part": "Programming Languages & Frameworks",
+      "part": "Γλώσσες Προγραμματισμού & Frameworks",
       "items": [
         {
           "fa": "<i class='fab fa-java'></i>",
@@ -56,7 +56,7 @@
         },
         {
           "fa": "<i class='fab fa-r-project'></i>",
-          "skill": "R Language",
+          "skill": "Γλώσσα R",
           "grade": 3
         },
         {
@@ -71,7 +71,7 @@
         },
         {
           "fa": "<i class='far fa-file-code'></i>",
-          "skill": "Json File",
+          "skill": "Json Αρχεία",
           "grade": 3
         },
         {
@@ -87,7 +87,7 @@
       ]
     },
     {
-      "part": "Tools",
+      "part": "Εργαλεία Υπολογιστή",
       "items": [
         {
           "fa": "<i class='fas fa-file-word'></i>",

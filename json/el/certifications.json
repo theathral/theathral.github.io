@@ -1,5 +1,5 @@
 {
-  "title": "Certifications & Seminars",
+  "title": "Πιστοποιήσεις & Σεμινάρια",
   "contents": [
     {
       "diploma": "<i class='fas fa-user-graduate'></i>&nbsp;Open Water Lifeguard Degree",
@@ -8,10 +8,10 @@
       "info": [
         {
           "fa": "<i class='fas fa-first-aid'></i>",
-          "text": "First Aid Knowledge"
+          "text": "Γνώση Πρώτων Βοηθειών"
         }
       ],
-      "date": "November 2018"
+      "date": "Νοέμβριος 2018"
     }
   ]
 }

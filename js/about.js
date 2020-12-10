@@ -36,7 +36,7 @@ function aboutDiv(json) {
     emptyDiv(ABOUT_NAME_ID);
     $('#' + ABOUT_NAME_ID).append(
         first_name,
-        "&nbsp;",
+        ' ',
         $('<span/>').addClass('text-info').append(last_name)
     )
 
