@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="el">
+<html lang="en">
 <head>
     <meta charset="utf-8"/>
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"/>
@@ -21,27 +21,24 @@
 <!-- Navigation -->
 <nav class="navbar navbar-expand-lg navbar-dark bg-info fixed-top" id="sideNav">
     <a class="navbar-brand js-scroll-trigger" href="#page-top">
-        <span class="d-block d-lg-none"><img class="rounded-circle" style="width: 10vw"
-                                             src="./assets/img/profile.jpg" alt="Φωτογραφία προφίλ"/></span>
-        <span class="d-none d-lg-block"><img class="img-fluid img-profile rounded-circle mx-auto mb-2"
-                                             src="./assets/img/profile.jpg" alt="Φωτογραφία προφίλ"/></span>
+        <span class="d-block d-lg-none"><img class="rounded-circle" id="photoSide" style="width: 10vw"
+                                             src="assets/img/profile.jpg" alt=""/></span>
+        <span class="d-none d-lg-block"><img class="img-fluid img-profile rounded-circle mx-auto mb-2" id="photoTop"
+                                             src="assets/img/profile.jpg" alt=""/></span>
     </a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
             aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><span
             class="navbar-toggler-icon"></span></button>
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav">
-            <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#about">Γενικά</a></li>
-            <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#workExperience">Επαγγελματική Εμπειρία</a>
-            </li>
-            <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#voluntaryExperience">Εθελοντική
-                Εργασία</a></li>
-            <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#education">Εκπαίδευση</a></li>
-            <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#certifications">Πιστοποιητικά</a></li>
-            <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#skills">Δεξιότητες</a></li>
-            <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#interests">Ενδιαφέροντα</a></li>
-            <li class="nav-item"><a class="nav-link js-scroll-trigger" href="./en/index.html">
-                <i class="fa fa-language"></i> English</a>
+            <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#about" id="aboutLink"></a></li>
+            <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#workExperience" id="workLink"></a></li>
+            <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#volExperience" id="volLink"></a></li>
+            <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#education" id="educationLink"></a></li>
+            <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#certifications" id="certLink"></a></li>
+            <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#skills" id="skillsLink"></a></li>
+            <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#interests" id="interestsLink"></a></li>
+            <li class="nav-item"><a class="nav-link"><i class="fa fa-language"></i> Ελληνικά</a>
             </li>
         </ul>
     </div>
@@ -50,39 +47,20 @@
 
 <!-- Page Content -->
 <div class="container-fluid p-0">
-
     <!-- About -->
     <section class="resume-section" id="about">
-        <div class="resume-section-content">
-            <h3 class="mb-0" id="myName">
-                Θεοδόσιος
-                <span class="text-info">Αθανασάκης</span>
-            </h3>
-            <div class="subheading mb-5">
-                Θεσσαλονίκη, Ελλάδα ·
-                <a class="text-black-50" href="tel:+306983630792">(+30) 698 363 0792</a> ·
-                <a class="text-info" href="mailto:th.athanasakis@gmail.com">th.athanasakis@gmail.com</a>
+        <div class="resume-section-content" id="aboutContent">
+            <h2 class="mb-0" id="aboutName">
+                <!-- From Json (/json/about.js) -->
+            </h2>
+            <div class="subheading mb-5" id="aboutContact">
+                <!-- From Json (/json/about.js) -->
             </div>
-            <p class="lead mb-5">
-                Αυτή είναι η προσωπική μου ιστοσελίδα. Μπορείτε να βρείτε πληροφορίες σχετικά με την εκπαίδευσή μου, την
-                εργασιακή μου εμπειρία κ.α.
+            <p class="lead mb-5" id="aboutText">
+                <!-- From Json (/json/about.js) -->
             </p>
-            <div class="social-icons">
-                <a class="social-icon bg-info m-2" href="https://www.linkedin.com/in/theodosis-athanasakis/"
-                   target="_blank"
-                   title="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
-                <a class="social-icon bg-info m-2" href="https://www.facebook.com/th.athanasakis" target="_blank"
-                   title="Facebook"><i class="fab fa-facebook-f"></i></a>
-                <a class="social-icon bg-info m-2" href="https://www.instagram.com/theodosis_ath/" target="_blank"
-                   title="Instagram"><i class="fab fa-instagram"></i></a>
-                <a class="social-icon bg-info m-2" href="https://join.skype.com/invite/jnxzb114kxM1" target="_blank"
-                   title="Skype"><i class="fab fa-skype"></i></a>
-                <a class="social-icon bg-info m-2" href="https://github.com/theathral" target="_blank"
-                   title="GitHub"><i class="fab fa-github"></i></a>
-                <a class="social-icon bg-info m-2" href="https://api.whatsapp.com/send?phone=00306983630792"
-                   target="_blank" title="WhatsApp"><i class="fab fa-whatsapp"></i></a>
-                <a class="social-icon bg-info m-2" href="./assets/CV.pdf" title="Resume" target="_blank"
-                   download="CV Theodosios Athanasakis"><i class="fas fa-download"></i></a>
+            <div class="social-icons" id="aboutSocial">
+                <!-- From Json (/json/about.js) -->
             </div>
         </div>
     </section>
@@ -90,102 +68,30 @@
     <!-- #About -->
 
 
-    <!-- Work Experience-->
+    <!-- Work Experience -->
     <section class="resume-section" id="workExperience">
-        <div class="resume-section-content">
-            <h3 class="mb-5">Επαγγελματική Εμπειρία</h3>
-
-            <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
-                <div class="flex-grow-1">
-                    <h4 class="mb-0">Ναυαγοσώστης Ανοιχτής Θαλάσσης</h4>
-                    <div class="subheading mb-3">BAYLINE SERVICES</div>
-                    <p>Ναυαγοσώστης Ανοιχτής Θαλάσσης σε παραλίες της Χαλκιδικής</p>
-                </div>
-                <div class="flex-shrink-0"><span class="text-info">Σεπτέμβριος 2020</span></div>
-            </div>
-            <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
-                <div class="flex-grow-1">
-                    <h4 class="mb-0">Ναυαγοσώστης Πισίνας</h4>
-                    <div class="subheading mb-3">Yuppi Camp</div>
-                    <p>Ναυαγοσώστης πισίνας παιδικής κατασκήνωσης</p>
-                </div>
-                <div class="flex-shrink-0"><span class="text-info">Ιούλιος 2020 - Αύγουστος 2020</span></div>
-            </div>
-            <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
-                <div class="flex-grow-1">
-                    <h4 class="mb-0">Ναυαγοσώστης Ανοιχτής Θαλάσσης</h4>
-                    <div class="subheading mb-3">BAYLINE SERVICES</div>
-                    <p>Ναυαγοσώστης Ανοιχτής Θαλάσσης στην παραλία "Αγία Παρασκευή", Σκιάθος</p>
-                </div>
-                <div class="flex-shrink-0"><span class="text-info">Ιούνιος 2019 - Οκτώβριος 2019</span></div>
-            </div>
-
+        <div class="resume-section-content" id="workExperienceContent">
+            <!-- From Json  -->
         </div>
     </section>
     <hr class="m-0"/>
-    <!-- #Work Experience-->
+    <!-- #Work Experience -->
 
 
-    <!-- Voluntary Experience-->
-    <section class="resume-section" id="voluntaryExperience">
-        <div class="resume-section-content">
-            <h3 class="mb-5">Εθελοντική Εργασία</h3>
-
-            <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
-                <div class="flex-grow-1">
-                    <h4 class="mb-0">Υποδοχή Πρωτοετών Φοιτητών</h4>
-                    <div class="subheading mb-3">Γραφείο Συντονισμού Εθελοντών και Φοιτητικών Δράσεων ΑΠΘ</div>
-                    <p class="text-warning">Εθελοντική Εργασία</p>
-                </div>
-                <div class="flex-shrink-0"><span class="text-info">Σεπτέμβριος 2020 - Οκτώβριος 2020</span></div>
-            </div>
-            <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
-                <div class="flex-grow-1">
-                    <h4 class="mb-0">Γραφείο Υποστήριξης Ακαδημαϊκών Δραστηριοτήτων</h4>
-                    <div class="subheading mb-3">Κέντρο Ηλεκτρονικής Διακυβέρνησης ΑΠΘ</div>
-                    <p class="text-warning">Εθελοντική Εργασία</p>
-                </div>
-                <div class="flex-shrink-0"><span class="text-info">Δεκέμβριος 2017 - Ιούλιος 2018</span></div>
-            </div>
-
+    <!-- Voluntary Experience -->
+    <section class="resume-section" id="volExperience">
+        <div class="resume-section-content" id="voluntaryExperienceContent">
+            <!-- From Json  -->
         </div>
     </section>
-    <!-- #Voluntary Experience-->
+    <hr class="m-0"/>
+    <!-- #Voluntary Experience -->
 
 
     <!-- Education -->
     <section class="resume-section" id="education">
-        <div class="resume-section-content">
-            <h3 class="mb-5">Εκπαίδευση</h3>
-
-            <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
-                <div class="flex-grow-1">
-                    <h4 class="mb-0"><i class='fas fa-user-graduate'></i> Πτυχίο Πληροφορικής</h4>
-                    <div class="subheading mb-3">Αριστοτέλειο Πανεπιστήμιο Θεσσαλονίκης</div>
-                    <p>
-                        <i class="fas fa-hourglass-half"></i> Ελάχιστη Διάρκεια Φοίτησης: 4 Έτη
-                        <br>
-                        <i class="fas fa-certificate"></i> Βαθμός: 8.42/10
-                    </p>
-                </div>
-                <div class="flex-shrink-0"><span class="text-info">Οκτώβριος 2016 - Νοέμβριος 2020</span></div>
-            </div>
-            <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
-                <div class="flex-grow-1">
-                    <h4 class="mb-0">Φοιτητής Erasmus Πληροφορικής</h4>
-                    <div class="subheading mb-3">University of Groningen</div>
-                    <p></p>
-                </div>
-                <div class="flex-shrink-0"><span class="text-info">Φεβρουάριος 2020 - Ιούλιος 2020</span></div>
-            </div>
-            <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
-                <div class="flex-grow-1">
-                    <h4 class="mb-0">Απολυτήριο Λυκείου</h4>
-                    <div class="subheading mb-3">5<sup>ο</sup> Γενικό Λύκειο Καλαμαριάς</div>
-                    <p><i class="fas fa-certificate"></i> Βαθμός: 19.3/20</p>
-                </div>
-                <div class="flex-shrink-0"><span class="text-info">Σεπτέμβριος 2013 - Ιούνιος 2016</span></div>
-            </div>
+        <div class="resume-section-content" id="educationContent">
+            <!-- From Json  -->
         </div>
     </section>
     <hr class="m-0"/>
@@ -194,115 +100,18 @@
 
     <!-- Certifications -->
     <section class="resume-section" id="certifications">
-        <div class="resume-section-content">
-            <h3 class="mb-5">Πιστοποιήσεις</h3>
-
-            <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
-                <div class="flex-grow-1">
-                    <h4 class="mb-0"><i class='fas fa-user-graduate'></i> Πτυχίο Ναυαγοσωστικής Ανοιχτής Θαλάσσης</h4>
-                    <div class="subheading mb-3">BAYLINE SERVICES</div>
-                    <p><i class="fas fa-first-aid"></i> Γνώση Πρώτων Βοηθειών </p>
-                </div>
-                <div class="flex-shrink-0"><span class="text-info">Νοέμβριος 2018</span></div>
-            </div>
-
+        <div class="resume-section-content" id="certificationsContent">
+            <!-- From Json  -->
         </div>
     </section>
+    <hr class="m-0"/>
     <!-- #Certifications -->
 
 
     <!-- Skills -->
     <section class="resume-section" id="skills">
-        <div class="resume-section-content">
-            <h3 class="mb-5">Δεξιότητες</h3>
-            <div class="subheading mb-3">Γλώσσες</div>
-            <ul class="fa-ul mb-3">
-                <li><span class="fa-li"><i class="fas fa-check"></i></span>Ελληνικά</li>
-                <li><span class="fa-li"><i class="fas fa-check"></i></span>Αγγλικά</li>
-            </ul>
-
-            <div class="subheading mb-3">Γλώσσες Προγραμματισμού - Frameworks</div>
-            <table class="ml-3 mb-3">
-                <tr>
-                    <td><i class="fab fa-java"></i> Java</td>
-                    <td id="java"></td>
-                </tr>
-                <tr>
-                    <td><i class="fas fa-database"></i> SQL</td>
-                    <td id="sql"></td>
-                </tr>
-                <tr>
-                    <td><i class="fab fa-android"></i> Android Studio</td>
-                    <td id="android"></td>
-                </tr>
-                <tr>
-                    <td><i class="fab fa-bootstrap"></i> Bootstrap 4</td>
-                    <td id="bootstrap4"></td>
-                </tr>
-                <tr>
-                    <td><i class="fab fa-html5"></i> Html 5</td>
-                    <td id="html5"></td>
-                </tr>
-                <tr>
-                    <td><i class="fab fa-css3-alt"></i> CSS 3</td>
-                    <td id="css3"></td>
-                </tr>
-                <tr>
-                    <td><i class="fab fa-js-square"></i> JavaScript</td>
-                    <td id="javascript"></td>
-                </tr>
-                <tr>
-                    <td><i class="fab fa-php"></i> PHP</td>
-                    <td id="php"></td>
-                </tr>
-                <tr>
-                    <td><i class="fab fa-r-project"></i> R Language</td>
-                    <td id="r"></td>
-                </tr>
-                <tr>
-                    <td><i class="fab fa-python"></i> Python</td>
-                    <td id="python"></td>
-                </tr>
-                <tr>
-                    <td><i class="fab fa-laravel"></i> Laravel</td>
-                    <td id="laravel"></td>
-                </tr>
-                <tr>
-                    <td><i class="fas fa-code"></i> C/C++</td>
-                    <td id="c"></td>
-                </tr>
-            </table>
-
-            <div class="subheading mb-3">Εργαλεία</div>
-            <table class="ml-3 mb-3">
-                <tr>
-                    <td><i class="fas fa-file-word"></i> Word</td>
-                    <td id="word"></td>
-                </tr>
-                <tr>
-                    <td><i class="fas fa-file-excel"></i> Excel</td>
-                    <td id="excel"></td>
-                </tr>
-                <tr>
-                    <td><i class="fas fa-file-powerpoint"></i> Powerpoint</td>
-                    <td id="powerpoint"></td>
-                </tr>
-                <tr>
-                    <td><i class="far fa-file-code"></i>
-                        Latex / <u>
-                            <a class="text-black-50" href="https://bit.ly/3jUZ51J" target="_blank">Overleaf</a></u>
-                    </td>
-                    <td id="latex"></td>
-                </tr>
-                <tr>
-                    <td><i class="fab fa-github"></i> GitHub</td>
-                    <td id="github"></td>
-                </tr>
-                <tr>
-                    <td><i class="fab fa-linux"></i> Linux</td>
-                    <td id="linux"></td>
-                </tr>
-            </table>
+        <div class="resume-section-content" id="skillsContent">
+            <!-- From Json  -->
         </div>
     </section>
     <hr class="m-0"/>
@@ -311,16 +120,8 @@
 
     <!-- Interests -->
     <section class="resume-section" id="interests">
-        <div class="resume-section-content">
-            <h3 class="mb-5">Ενδιαφέροντα</h3>
-            <ul class="fa-ul mb-0">
-                <li><span class="fa-li"><i class="fas fa-camera"></i></span>Φωτογραφία</li>
-                <li><span class="fa-li"><i class="fas fa-plane"></i></span>Ταξίδια</li>
-                <li><span class="fa-li"><i class="fas fa-heartbeat"></i></span>Γυμναστική</li>
-                <li><span class="fa-li"><i class="fas fa-users"></i></span>Εθελοντισμός</li>
-                <li><span class="fa-li"><i class="fas fa-table-tennis"></i></span>Τένις</li>
-                <li><span class="fa-li"><i class="fas fa-basketball-ball"></i></span>Μπάσκετ</li>
-            </ul>
+        <div class="resume-section-content" id="interestsContent">
+            <!-- From Json  -->
         </div>
     </section>
     <!-- #Interests -->
@@ -335,6 +136,11 @@
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/sweetalert2@9"></script>
 <!-- Core theme JS-->
+<script src="js/about.js"></script>
+<script src="js/experience.js"></script>
+<script src="js/education.js"></script>
+<script src="js/skills.js"></script>
+<script src="js/interests.js"></script>
 <script src="js/scripts.js"></script>
 </body>
 </html>

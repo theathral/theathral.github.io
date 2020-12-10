@@ -98,7 +98,7 @@ function sideLi(href, text) {
 // #Sidebar and Section Titles
 
 // Change Language
-const PATH = '/json/';
+const PATH = 'json/';
 
 window.addEventListener('load', function () {
     let lang = window.navigator.language.toLowerCase();
