@@ -1,0 +1,17 @@
+{
+  "title": "Certifications & Seminars",
+  "contents": [
+    {
+      "diploma": "<i class='fas fa-user-graduate'></i>&nbsp;Open Water Lifeguard Degree",
+      "organization": "BAYLINE SERVICES",
+      "details": [],
+      "info": [
+        {
+          "fa": "<i class='fas fa-first-aid'></i>",
+          "text": "First Aid Knowledge"
+        }
+      ],
+      "date": "November 2018"
+    }
+  ]
+}

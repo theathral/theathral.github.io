@@ -65,10 +65,71 @@ $(".underConstructionEn").on("click", function () {
         confirmButtonText: "OK!"
     })
 })
+
 // #Under Construction alert
 
 
-function initDiv() {
+// Sidebar and Section Titles
+const SIDEBAR_ID = 'sideBarSections';
 
+function initDiv(section_id, content_id, title) {
+
+    $('#' + content_id).append(
+        $('<h3/>').addClass('mb-5').append(title)
+    );
+
+    sideLi(section_id, title);
 }
+
+// <section class="resume-section" id="{Section Id}">
+//     <div class="resume-section-content" id="{Section Content Id}">
+//         <h3 class="mb-5">{Title}</h3>
+//         <!-- From Json  -->
+//     </div>
+// </section>
+
+
+function sideLi(href, text) {
+    $('#' + href).append(text);
+}
+
+// <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#{id}">{Text}</a></li>
+
+// #Sidebar and Section Titles
+
+// Change Language
+const PATH = '/json/';
+
+window.addEventListener('load', function () {
+    let lang = window.navigator.language.toLowerCase();
+    alert(lang);
+
+    if (lang.match('el') || lang.match('gr')) {
+        changeLang('gr');
+    } else {
+        changeLang('en');
+    }
+
+})
+
+document.addEventListener('click', function () {
+    changeLang();
+});
+
+function changeLang(lang) {
+    const cur_path = PATH + lang;
+
+    aboutFetch(cur_path + '/about.json')
+    workExperienceFetch(cur_path + '/workExperience.json');
+    voluntaryExperienceFetch(cur_path + '/voluntaryExperience.json');
+    educationFetch(cur_path + '/education.json');
+    certificationsFetch(cur_path + '/certifications.json');
+    skillsFetch(cur_path + '/skills.json');
+    interestsFetch(cur_path + '/interests.json');
+
+    alert('okokok');
+}
+
+
+// #Change Language
 

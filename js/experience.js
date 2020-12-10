@@ -1,31 +1,38 @@
 // Work Experience
-const WORK_EXP_ID = 'workExperienceContent';
+const WORK_EXP_LINK = 'workLink';
+const WORK_EXP_CONT_ID = 'workExperienceContent';
 const WORK_EXP_POS_ID = 'workExperiencePos';
-fetch("../json/workExperience.json")
-    .then(res => res.json())
-    .then(data => experienceDiv(data, WORK_EXP_ID, WORK_EXP_POS_ID))
+
+function workExperienceFetch(path) {
+    fetch(path)
+        .then(res => res.json())
+        .then(data => experienceDiv(data, WORK_EXP_LINK, WORK_EXP_CONT_ID, WORK_EXP_POS_ID))
+}
+
 // #Work Experience
 
 // Voluntary Experience
-const VOLUNTARY_EXP_ID = 'voluntaryExperienceContent';
+const VOLUNTARY_EXP_LINK = 'volLink';
+const VOLUNTARY_EXP_CONT_ID = 'voluntaryExperienceContent';
 const VOLUNTARY_EXP_POS_ID = 'voluntaryExperiencePos';
-fetch("../json/voluntaryExperience.json")
-    .then(res => res.json())
-    .then(data => experienceDiv(data, VOLUNTARY_EXP_ID, VOLUNTARY_EXP_POS_ID))
+
+function voluntaryExperienceFetch(path) {
+    fetch(path)
+        .then(res => res.json())
+        .then(data => experienceDiv(data, VOLUNTARY_EXP_LINK, VOLUNTARY_EXP_CONT_ID, VOLUNTARY_EXP_POS_ID))
+}
 
 // #Voluntary Experience
 
 
-function experienceDiv(json, glob_id, pos_id_pre) {
+function experienceDiv(json, section_id, content_id, pos_id_pre) {
     let title = json.title;
     let contents = json.contents;
 
-    $('#' + glob_id).append(
-        $('<h3/>').addClass('mb-5').append(title)
-    );
+    initDiv(section_id, content_id, title)
 
     for (let i = 0; i < contents.length; i++) {
-        experienceSingle(i, glob_id, pos_id_pre, contents[i]);
+        experienceSingle(i, content_id, pos_id_pre, contents[i]);
     }
 }
 

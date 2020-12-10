@@ -1,0 +1,38 @@
+{
+  "title": "Work Experience",
+  "contents": [
+    {
+      "position": "Open Water Lifeguard",
+      "company": "BAYLINE SERVICES",
+      "info": [
+        {
+          "fa" : "<i class='fas fa-water'></i>",
+          "text" : "Open Water Lifeguard at Chalkidiki, Greece"
+        }
+      ],
+      "date": "September 2020"
+    },
+    {
+      "position": "Pool Lifeguard",
+      "company": "Yuppi Camp",
+      "info": [
+        {
+          "fa" : "<i class='fas fa-swimming-pool'></i>",
+          "text" : "Pool Lifeguard at children's camp"
+        }
+      ],
+      "date": "July 2020 - August 2020"
+    },
+    {
+      "position": "Open Water Lifeguard",
+      "company": "BAYLINE SERVICES",
+      "info": [
+        {
+          "fa" : "<i class='fas fa-water'></i>",
+          "text" : "Open Water Lifeguard at Skiathos, Greece"
+        }
+      ],
+      "date": "June 2019 - October 2019"
+    }
+  ]
+}

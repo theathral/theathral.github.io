@@ -1,16 +1,21 @@
 // Interests
-const INTERESTS_ID = 'interestsContent';
+const INTERESTS_LINK = 'interestsLink';
+const INTERESTS_CONT_ID = 'interestsContent';
 const INTERESTS_SECTION_ID = 'interestsSection';
-fetch("../json/interests.json")
-    .then(res => res.json())
-    .then(data => interestsDiv(data))
+
+function interestsFetch(path) {
+    fetch(path)
+        .then(res => res.json())
+        .then(data => interestsDiv(data))
+}
 
 function interestsDiv(json) {
     let title = json.title;
     let contents = json.contents;
 
-    $('#' + INTERESTS_ID).append(
-        $('<h3/>').addClass('mb-5').append(title),
+    initDiv(INTERESTS_LINK, INTERESTS_CONT_ID, title)
+
+    $('#' + INTERESTS_CONT_ID).append(
         $('<ul/>').addClass(['fa-ul', 'mb-0']).attr('id', INTERESTS_SECTION_ID)
     );
 
@@ -35,7 +40,7 @@ function interestsDivSingle(item) {
 
 
 // <ul className="fa-ul mb-0">
-//     <li><span className="fa-li">{fas fa}</span>"&nbsp;"{Interest}</li>
-//     <li><span className="fa-li">{fas fa}</span>{Interest}</li>
+//     <li><span className="fa-li">{fas fa}</span>&nbsp;{Interest}</li>
+//     <li><span className="fa-li">{fas fa}</span>&nbsp;{Interest}</li>
 // </ul>
 

@@ -1,0 +1,22 @@
+{
+  "title": "Voluntary Experience",
+  "contents": [
+    {
+      "position": "Reception of Freshmen",
+      "company": "Volunteer Coordination Office, Aristotle University of Thessaloniki",
+      "info": [],
+      "date": "September 2020 - October 2020"
+    },
+    {
+      "position": "Support for Academic Activities",
+      "company": "IT Center of the Aristotle University of Thessaloniki",
+      "info": [
+        {
+          "fa": "<i class='fas fa-desktop'></i>",
+          "text": "////////////////////////"
+        }
+      ],
+      "date": "December 2017 - July 2018"
+    }
+  ]
+}

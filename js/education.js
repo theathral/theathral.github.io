@@ -1,32 +1,38 @@
 // Education
-const EDUCATION_ID = 'educationContent';
-const EDUCATION_PAR_ID = 'educationParagraph-';
-const EDUCATION_UL_ID = 'educationList-';
-fetch("../json/education.json")
-    .then(res => res.json())
-    .then(data => educationDiv(data, EDUCATION_ID, EDUCATION_PAR_ID, EDUCATION_UL_ID))
-// #Education
+const EDUCATION_LINK = 'educationLink';
+const EDUCATION_CONT_ID = 'educationContent';
+const EDUCATION_PAR_ID = 'educationParagraph';
+const EDUCATION_UL_ID = 'educationList';
+
+function educationFetch(path) {
+    fetch(path)
+        .then(res => res.json())
+        .then(data => educationDiv(data, EDUCATION_LINK, EDUCATION_CONT_ID, EDUCATION_PAR_ID, EDUCATION_UL_ID))
+}// #Education
 
 // Certifications
-const CERT_ID = 'certificationsContent';
-const CERT_PAR_ID = 'certificationsParagraph-';
-const CERT_UL_ID = 'certificationsList-';
-fetch("../json/certifications.json")
-    .then(res => res.json())
-    .then(data => educationDiv(data, CERT_ID, CERT_PAR_ID, CERT_UL_ID))
+const CERT_LINK = 'certLink';
+const CERT_CONT_ID = 'certificationsContent';
+const CERT_PAR_ID = 'certificationsParagraph';
+const CERT_UL_ID = 'certificationsList';
+
+function certificationsFetch(path) {
+    fetch(path)
+        .then(res => res.json())
+        .then(data => educationDiv(data, CERT_LINK, CERT_CONT_ID, CERT_PAR_ID, CERT_UL_ID))
+}
 
 // #Certifications
 
 
-function educationDiv(json, glob_id, par_id, ul_id) {
+function educationDiv(json, section_id, content_id, par_id, ul_id) {
     let title = json.title;
     let contents = json.contents;
-    $('#' + glob_id).append(
-        $('<h3/>').addClass('mb-5').append(title)
-    );
+
+    initDiv(section_id, content_id, title)
 
     for (let i = 0; i < contents.length; i++) {
-        educationDivSingle(i, contents[i], glob_id, par_id, ul_id);
+        educationDivSingle(i, contents[i], content_id, par_id, ul_id);
     }
 }
 
