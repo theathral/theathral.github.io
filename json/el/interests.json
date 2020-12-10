@@ -3,27 +3,27 @@
   "contents": [
     {
       "fa": "<i class='fas fa-camera'></i>",
-      "interest": "Photography"
+      "interest": "Φωτογραφία"
     },
     {
       "fa": "<i class='fas fa-plane'></i>",
-      "interest": "Travelling"
+      "interest": "Ταξίδια"
     },
     {
       "fa": "<i class='fas fa-heartbeat'></i>",
-      "interest": "Fitness"
+      "interest": "Γυμναστική"
     },
     {
       "fa": "<i class='fas fa-users'></i>",
-      "interest": "Volunteering"
+      "interest": "Εθελοντισμός"
     },
     {
       "fa": "<i class='fas fa-table-tennis'></i>",
-      "interest": "Tennis"
+      "interest": "Τένις"
     },
     {
       "fa": "<i class='fas fa-basketball-ball'></i>",
-      "interest": "Basketball"
+      "interest": "Μπάσκετ"
     }
   ]
 }

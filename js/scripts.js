@@ -90,6 +90,7 @@ function initDiv(section_id, content_id, title) {
 
 
 function sideLi(href, text) {
+    emptyDiv(href);
     $('#' + href).append(text);
 }
 
@@ -97,14 +98,21 @@ function sideLi(href, text) {
 
 // #Sidebar and Section Titles
 
+// Empty Divs
+function emptyDiv(id) {
+    $('#' + id).empty();
+}
+
+// #Empty Divs
+
 // Change Language
 const PATH = 'json/';
 
 window.addEventListener('load', function () {
     let lang = window.navigator.language.toLowerCase();
 
-    if (lang.match('el') || lang.match('gr')) {
-        changeLang('gr');
+    if (lang.match('el') || lang.match('el')) {
+        changeLang('el');
     } else {
         changeLang('en');
     }
@@ -115,15 +123,19 @@ document.getElementById(ABOUT_LANG_ID).addEventListener('click', function langLi
 
     if (element.hasClass('en')) {
         element.removeClass('en');
-        changeLang('gr');
-    } else if (element.hasClass('gr')) {
-        element.removeClass('gr');
+        changeLang('el');
+    } else if (element.hasClass('el')) {
+        element.removeClass('el');
         changeLang('en');
+    } else {
+        console.log('Error in language file');
     }
 });
 
 function changeLang(lang) {
     const cur_path = PATH + lang;
+
+    $('html').attr('lang', lang);
 
     aboutFetch(cur_path + '/about.json')
     workExperienceFetch(cur_path + '/workExperience.json');
@@ -132,8 +144,6 @@ function changeLang(lang) {
     certificationsFetch(cur_path + '/certifications.json');
     skillsFetch(cur_path + '/skills.json');
     interestsFetch(cur_path + '/interests.json');
-
-    alert('okokok');
 }
 
 

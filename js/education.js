@@ -29,6 +29,7 @@ function educationDiv(json, section_id, content_id, par_id, ul_id) {
     let title = json.title;
     let contents = json.contents;
 
+    emptyDiv(content_id);
     initDiv(section_id, content_id, title)
 
     for (let i = 0; i < contents.length; i++) {

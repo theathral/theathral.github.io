@@ -1,9 +1,9 @@
 {
-  "title": "Education",
+  "title": "Εκπαίδευση",
   "contents": [
     {
-      "diploma": "<i class='fas fa-user-graduate'></i>&nbsp;BSc in Computer Science",
-      "organization": "Aristotle University of Thessaloniki",
+      "diploma": "<i class='fas fa-user-graduate'></i>&nbsp;Πτυχίο Πληροφορικής",
+      "organization": "Αριστοτέλειο Πανεπιστήμιο Θεσσαλονίκης",
       "details": [
         [
           "BSc Thesis during Erasmus Exchange with <strong>Prof. Paris Avgeriou</strong> ",
@@ -16,11 +16,11 @@
       "info": [
         {
           "fa": "<i class='fas fa-hourglass-half'></i>",
-          "text": "Minimum Attendance Duration: 4 Years"
+          "text": "Ελάχιστος Χρόνος Φοίτησης: 4 Χρόνια"
         },
         {
           "fa": "<i class='fas fa-certificate'></i>",
-          "text": "Grade: 8.42/10"
+          "text": "Βαθμός: 8,42/10"
         }
       ],
       "date": "October 2016 - November 2020"

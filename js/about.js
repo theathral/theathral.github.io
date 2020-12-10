@@ -33,12 +33,14 @@ function aboutDiv(json) {
 
     sideLi(ABOUT_LINK, title)
 
+    emptyDiv(ABOUT_NAME_ID);
     $('#' + ABOUT_NAME_ID).append(
         first_name,
         "&nbsp;",
         $('<span/>').addClass('text-info').append(last_name)
     )
 
+    emptyDiv(ABOUT_CONTACT_ID);
     $('#' + ABOUT_CONTACT_ID).append(
         place,
         ' · ',
@@ -52,16 +54,19 @@ function aboutDiv(json) {
     )
 
 
+    emptyDiv(ABOUT_TEXT_ID);
     $('#' + ABOUT_TEXT_ID).append(about);
 
+    $('#' + ABOUT_SOCIAL_ID).empty();
     for (let i = 0; i < social.length; i++) {
         aboutSocialMediaSingle(ABOUT_SOCIAL_ID, social[i]);
     }
 
     aboutCV(ABOUT_SOCIAL_ID, cv);
 
+    emptyDiv(ABOUT_LANG_ID);
     $('#' + ABOUT_LANG_ID).addClass('' + lang.folder)
-        .append('&nbsp;' + lang.title);
+        .append('<i class="fa fa-language"></i>&nbsp;' + lang.title);
 }
 
 function aboutSocialMediaSingle(id, social) {

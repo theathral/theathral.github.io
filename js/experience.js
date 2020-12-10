@@ -29,6 +29,7 @@ function experienceDiv(json, section_id, content_id, pos_id_pre) {
     let title = json.title;
     let contents = json.contents;
 
+    emptyDiv(content_id);
     initDiv(section_id, content_id, title)
 
     for (let i = 0; i < contents.length; i++) {

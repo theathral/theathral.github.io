@@ -47,7 +47,7 @@
   ],
   "cv": {
     "title": "Resume",
-    "href": "../assets/CV-en.pdf",
+    "href": "assets/CV-en.pdf",
     "fa": "<i class='fas fa-download'></i>",
     "download": "CV Theodosios Athanasakis"
   },

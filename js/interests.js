@@ -13,6 +13,7 @@ function interestsDiv(json) {
     let title = json.title;
     let contents = json.contents;
 
+    emptyDiv(INTERESTS_CONT_ID);
     initDiv(INTERESTS_LINK, INTERESTS_CONT_ID, title)
 
     $('#' + INTERESTS_CONT_ID).append(

@@ -32,6 +32,7 @@ function skillsDiv(json) {
     let title = json.title;
     let sections = json.contents;
 
+    emptyDiv(SKILL_CONT_ID);
     initDiv(SKILL_ID, SKILL_CONT_ID, title)
 
     for (let i = 0; i < sections.length; i++) {
