@@ -1,46 +1,47 @@
 {
   "title": "Education",
-  "min_duration_title": "Minimum Attendance Duration",
-  "fa_min_duration": "<i class='fas fa-hourglass-half'></i>",
-  "grade_title": "Grade",
-  "fa_grade": "<i class='fas fa-certificate'></i>",
   "contents": [
     {
-      "degree": {
-        "fa": "<i class='fas fa-user-graduate'></i>",
-        "diploma": "BSc in Computer Science"
-      },
+      "diploma": "<i class='fas fa-user-graduate'></i>&nbsp;BSc in Computer Science",
       "organization": "Aristotle University of Thessaloniki",
-      "info": [
-        "BSc Thesis during Erasmus Exchange with <strong>Prof. Paris Avgeriou</strong> (University of Groningen) as supervisor.",
-        "Find more information about this in \"Portfolio\" section."
+      "details": [
+        [
+          "BSc Thesis during Erasmus Exchange with <strong>Prof. Paris Avgeriou</strong> ",
+          "(University of Groningen) as supervisor."
+        ],
+        [
+          "-Find more information about this in \"Portfolio\" section."
+        ]
       ],
-      "min-duration": "4 Years",
-      "grade": "8.42/10",
+      "info": [
+        {
+          "fa": "<i class='fas fa-hourglass-half'></i>",
+          "text": "Minimum Attendance Duration: 4 Years"
+        },
+        {
+          "fa": "<i class='fas fa-certificate'></i>",
+          "text": "Grade: 8.42/10"
+        }
+      ],
       "date": "October 2016 - November 2020"
     },
     {
-      "degree": {
-        "fa": "",
-        "diploma": "Erasmus+ for Studies - Computing Science"
-      },
+      "diploma": "Erasmus+ for Studies - Computing Science",
       "organization": "University of Groningen",
-      "info": [
-      ],
-      "min-duration": "",
-      "grade": "",
+      "details": [],
+      "info": [],
       "date": "February 2020 - July 2020"
     },
     {
-      "degree": {
-        "fa": "",
-        "diploma": "High School Diploma"
-      },
+      "diploma": "High School Diploma",
       "organization": "5<sup>th</sup> High School of Kalamaria, Thessaloniki",
+      "details": [],
       "info": [
+        {
+          "fa": "<i class='fas fa-certificate'></i>",
+          "text": "Grade: 19.3/20"
+        }
       ],
-      "min-duration": "",
-      "grade": "19.3/20",
       "date": "September 2013 - June 2016"
     }
   ]

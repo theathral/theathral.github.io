@@ -6,9 +6,8 @@
       "company": "BAYLINE SERVICES",
       "info": [
         {
-          "fa" : "\uF773",
-          "fa-tag" : "<i class='fas fa-water'></i>",
-          "d-item" : "Open Water Lifeguard at Chalkidiki, Greece"
+          "fa" : "<i class='fas fa-water'></i>",
+          "text" : "Open Water Lifeguard at Chalkidiki, Greece"
         }
       ],
       "date": "September 2020"
@@ -18,9 +17,8 @@
       "company": "Yuppi Camp",
       "info": [
         {
-          "fa" : "\uF5C5",
-          "fa-tag" : "<i class='fas fa-swimming-pool'></i>",
-          "d-item" : "Pool Lifeguard at children's camp"
+          "fa" : "<i class='fas fa-swimming-pool'></i>",
+          "text" : "Pool Lifeguard at children's camp"
         }
       ],
       "date": "July 2020 - August 2020"
@@ -30,9 +28,8 @@
       "company": "BAYLINE SERVICES",
       "info": [
         {
-          "fa" : "\uF773",
-          "fa-tag" : "<i class='fas fa-water'></i>",
-          "d-item" : "Open Water Lifeguard at Skiathos, Greece"
+          "fa" : "<i class='fas fa-water'></i>",
+          "text" : "Open Water Lifeguard at Skiathos, Greece"
         }
       ],
       "date": "June 2019 - October 2019"
