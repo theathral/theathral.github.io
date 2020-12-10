@@ -102,18 +102,24 @@ const PATH = 'json/';
 
 window.addEventListener('load', function () {
     let lang = window.navigator.language.toLowerCase();
-    alert(lang);
 
     if (lang.match('el') || lang.match('gr')) {
         changeLang('gr');
     } else {
         changeLang('en');
     }
-
 })
 
-document.addEventListener('click', function () {
-    changeLang();
+document.getElementById(ABOUT_LANG_ID).addEventListener('click', function langLink() {
+    const element = $('#' + ABOUT_LANG_ID);
+
+    if (element.hasClass('en')) {
+        element.removeClass('en');
+        changeLang('gr');
+    } else if (element.hasClass('gr')) {
+        element.removeClass('gr');
+        changeLang('en');
+    }
 });
 
 function changeLang(lang) {

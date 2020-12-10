@@ -10,7 +10,7 @@
   },
   "email": "th.athanasakis@gmail.com",
   "about": [
-    "This is my personal website. ",
+    "Γεια σας! ",
     "You can find my education, experience and other information about me."
   ],
   "social": [
@@ -51,10 +51,8 @@
     "fa": "<i class='fas fa-download'></i>",
     "download": "CV Theodosios Athanasakis"
   },
-  "lang": [
-    {
-      "folder": "gr",
-      "title": "Ελληνικά"
-    }
-  ]
+  "lang": {
+    "folder": "gr",
+    "title": "Ελληνικά"
+  }
 }

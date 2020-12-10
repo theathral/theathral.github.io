@@ -6,6 +6,7 @@ const ABOUT_NAME_ID = 'aboutName';
 const ABOUT_CONTACT_ID = 'aboutContact';
 const ABOUT_TEXT_ID = 'aboutText';
 const ABOUT_SOCIAL_ID = 'aboutSocial';
+const ABOUT_LANG_ID = 'langLink';
 
 function aboutFetch(path) {
     fetch(path)
@@ -58,6 +59,9 @@ function aboutDiv(json) {
     }
 
     aboutCV(ABOUT_SOCIAL_ID, cv);
+
+    $('#' + ABOUT_LANG_ID).addClass('' + lang.folder)
+        .append('&nbsp;' + lang.title);
 }
 
 function aboutSocialMediaSingle(id, social) {

@@ -51,10 +51,8 @@
     "fa": "<i class='fas fa-download'></i>",
     "download": "CV Theodosios Athanasakis"
   },
-  "lang": [
-    {
-      "folder": "gr",
-      "title": "Ελληνικά"
-    }
-  ]
+  "lang": {
+    "folder": "en",
+    "title": "English"
+  }
 }
