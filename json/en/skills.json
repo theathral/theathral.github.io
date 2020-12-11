@@ -56,7 +56,7 @@
         },
         {
           "fa": "<i class='fab fa-r-project'></i>",
-          "skill": "R Language",
+          "skill": "Language R",
           "grade": 3
         },
         {
@@ -70,13 +70,18 @@
           "grade": 3
         },
         {
-          "fa": "<i class='far fa-file-code'></i>",
-          "skill": "Json File",
+          "fa": "<i class='fab fa-python'></i>",
+          "skill": "Flask",
           "grade": 3
         },
         {
           "fa": "<i class='fab fa-android'></i>",
           "skill": "Android Studio",
+          "grade": 3
+        },
+        {
+          "fa": "<i class='fas fa-code'></i>",
+          "skill": "Prolog",
           "grade": 3
         },
         {
@@ -110,9 +115,34 @@
           "grade": 5
         },
         {
+          "fa": "<i class='far fa-file-alt'></i>",
+          "skill": "Json Format",
+          "grade": 5
+        },
+        {
+          "fa": "<i class='fab fa-windows'></i>",
+          "skill": "Windows",
+          "grade": 4
+        },
+        {
           "fa": "<i class='fab fa-github'></i>",
           "skill": "GitHub",
           "grade": 4
+        },
+        {
+          "fa": "<i class='fas fa-film'></i>",
+          "skill": "Adobe Premiere",
+          "grade": 3
+        },
+        {
+          "fa": "<i class='fas fa-image'></i>",
+          "skill": "Adobe Photoshop",
+          "grade": 3
+        },
+        {
+          "fa": "<i class='fas fa-microphone-alt'></i>",
+          "skill": "Adobe Audition",
+          "grade": 3
         },
         {
           "fa": "<i class='fab fa-linux'></i>",

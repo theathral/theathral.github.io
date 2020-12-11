@@ -1,0 +1,17 @@
+{
+  "title": "Portfolio",
+  "contents": [
+    {
+      "title": "Title of the document",
+      "text": [
+        "Description of the document"
+      ],
+      "href": {
+        "message": "Attention message for the user (ex. Only in Greek)",
+        "fa": "<i class='fas fa-download'></i> <i class='fas fa-file-pdf'></i>",
+        "link": "Link to new window"
+      },
+      "date": "Date of the document"
+    }
+  ]
+}

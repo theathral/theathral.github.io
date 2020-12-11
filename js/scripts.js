@@ -70,8 +70,6 @@ $(".underConstructionEn").on("click", function () {
 
 
 // Sidebar and Section Titles
-const SIDEBAR_ID = 'sideBarSections';
-
 function initDiv(section_id, content_id, title) {
     $('#' + content_id).append(
         $('<h3/>').addClass('mb-5').append(title)
@@ -143,6 +141,7 @@ function changeLang(lang) {
     educationFetch(cur_path + '/education.json');
     certificationsFetch(cur_path + '/certifications.json');
     skillsFetch(cur_path + '/skills.json');
+    portfolioFetch(cur_path + '/portfolio.json');
     interestsFetch(cur_path + '/interests.json');
 }
 
