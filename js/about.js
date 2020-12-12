@@ -1,3 +1,4 @@
+const TITLE_DIV = 'title';
 const PHOTO_SIDE = 'photoSide';
 const PHOTO_TOP = 'photoTop';
 
@@ -27,6 +28,9 @@ function aboutDiv(json) {
     let social = json.social;
     let cv = json.cv;
     let lang = json.lang;
+
+    emptyDiv(TITLE_DIV);
+    $('#' + TITLE_DIV).append(first_name + '&nbsp;' + last_name);
 
     $('#' + PHOTO_SIDE).attr('alt', photo_alt);
     $('#' + PHOTO_TOP).attr('alt', photo_alt);
