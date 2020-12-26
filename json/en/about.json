@@ -1,4 +1,5 @@
 {
+  "last_change": "(Updated at: 27-Dec-2020)",
   "title": "About",
   "photo_alt": "Profile Photo",
   "first_name": "Theodosios",
@@ -10,8 +11,20 @@
   },
   "email": "th.athanasakis@gmail.com",
   "about": [
-    "This is my personal website. ",
-    "You can find my education, experience and other information about me."
+    "Hi!",
+    "<br>",
+    "My name is Theodosis, I am 22 years old and I have studied Computer Science. ",
+    "On this page, you can find information about my education, ",
+    "my work experience, my most important projects etc.",
+    "<br>",
+    "<br>",
+    "My involvement with the field of information technology has taught me to be <strong>patient</strong> and <strong>calm</strong>. ",
+    "Also, I am <strong>organizational</strong>, <strong>responsible</strong> and with a <strong>team spirit</strong>. ",
+    "<strong>I am not afraid to lead</strong>, while the <strong>diplomacy</strong> and ",
+    "the excellent <strong>interpersonal relations</strong> that describes me, ",
+    "give me the opportunity to <strong>\"read between the lines\"</strong>. ",
+    "I <strong>work with motive</strong>, <strong>I am not afraid to take risks</strong>, ",
+    "as well as to assume my responsibilities in case of any miscalculations."
   ],
   "social": [
     {

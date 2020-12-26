@@ -6,6 +6,7 @@ const ABOUT_LINK = 'aboutLink';
 const ABOUT_NAME_ID = 'aboutName';
 const ABOUT_CONTACT_ID = 'aboutContact';
 const ABOUT_TEXT_ID = 'aboutText';
+const ABOUT_UPDATED_ID = 'aboutUpdated';
 const ABOUT_SOCIAL_ID = 'aboutSocial';
 const ABOUT_LANG_ID = 'langLink';
 
@@ -16,6 +17,7 @@ function aboutFetch(path) {
 }
 
 function aboutDiv(json) {
+    let updated = json.last_change;
     let title = json.title;
     let photo_alt = json.photo_alt;
     let first_name = json.first_name;
@@ -28,6 +30,9 @@ function aboutDiv(json) {
     let social = json.social;
     let cv = json.cv;
     let lang = json.lang;
+
+    emptyDiv(ABOUT_UPDATED_ID);
+    $('#' + ABOUT_UPDATED_ID).append(updated);
 
     emptyDiv(TITLE_DIV);
     $('#' + TITLE_DIV).append(first_name + '&nbsp;' + last_name);
@@ -56,7 +61,6 @@ function aboutDiv(json) {
             .attr('href', 'mailto:' + email)
             .append(email),
     )
-
 
     emptyDiv(ABOUT_TEXT_ID);
     $('#' + ABOUT_TEXT_ID).append(about);
