@@ -2,6 +2,33 @@
   "title": "Certifications & Seminars",
   "contents": [
     {
+      "diploma": "Agile Methodologies of Cloud Software Engineering",
+      "organization": "Deloitte - University of Macedonia",
+      "details": [
+        "Understanding techniques for high quality software development, with emphasis on web application development and cloud computing applications.",
+        "Understanding software development tools utilized in the context of Deloitte activities."
+      ],
+      "info": [
+        {
+          "fa": "<i class='fas fa-project-diagram'></i>",
+          "text": "Understanding software development techniques (Scrum, Kanban, Extreme Programming)"
+        },
+        {
+          "fa": "<i class='fas fa-pager'></i>",
+          "text": "Learning software development tools (Java, HTML, CSS, Javascript)"
+        },
+        {
+          "fa": "<i class='fas fa-tasks'></i>",
+          "text": "Learning software control techniques (Selenium WebDriver, Cucumber BDD, JMeter, Maven)"
+        },
+        {
+          "fa": "<i class='fas fa-network-wired'></i>",
+          "text": "Introduction to the concept of ETL (Extract, Transform, Load) and the tools \"Talend\" & \"Mulesoft\""
+        }
+      ],
+      "date": "October 2020 - December 2020"
+    },
+    {
       "diploma": "<i class='fas fa-user-graduate'></i>&nbsp;Open Water Lifeguard Degree",
       "organization": "BAYLINE SERVICES",
       "details": [],

@@ -2,7 +2,34 @@
   "title": "Πιστοποιήσεις & Σεμινάρια",
   "contents": [
     {
-      "diploma": "<i class='fas fa-user-graduate'></i>&nbsp;Open Water Lifeguard Degree",
+      "diploma": "Ευέλικτες Μεθοδολογίες Ανάπτυξης Λογισμικού Υπολογιστικής Νέφους",
+      "organization": "Deloitte - Πανεπιστήμιο Μακεδομίας",
+      "details": [
+        "Κατανόηση τεχνικών ανάπτυξης υψηλής ποιότητας λογισμικού, με έμφαση στην ανάπτυξη δικτυακών εφαρμογών και εφαρμογών υπολογιστικής νέφους.",
+        "Κατανόηση εργαλείων ανάπτυξης λογισμικού που αξιοποιούνται στο πλαίσιο των δραστηριοτήτων της Deloitte."
+      ],
+      "info": [
+        {
+          "fa": "<i class='fas fa-project-diagram'></i>",
+          "text": "Κατανόηση τεχνικών ανάπτυξης λογισμικού (Scrum, Kanban, Extreme Programming)"
+        },
+        {
+          "fa": "<i class='fas fa-pager'></i>",
+          "text": "Εκμάθηση εργαλείων ανάπτυξης λογισμικού (Java, HTML, CSS, Javascript)"
+        },
+        {
+          "fa": "<i class='fas fa-tasks'></i>",
+          "text": "Εκμάθηση τεχνικών ελέγχου λογισμικού (Selenium WebDriver, Cucumber BDD, JMeter, Maven)"
+        },
+        {
+          "fa": "<i class='fas fa-network-wired'></i>",
+          "text": "Εισαγωγή στην έννοια του ETL (Extract, Transform, Load) και στα εργαλεία \"Talend\" & \"Mulesoft\""
+        }
+      ],
+      "date": "Οκτώβριος 2020 - Δεκέμβριος 2020"
+    },
+    {
+      "diploma": "<i class='fas fa-user-graduate'></i>&nbsp;Πτυχίο Ναυαγοσώστη Ανοιχτής Θαλάσσης",
       "organization": "BAYLINE SERVICES",
       "details": [],
       "info": [
