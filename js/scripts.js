@@ -145,6 +145,5 @@ function changeLang(lang) {
     interestsFetch(cur_path + '/interests.json');
 }
 
-
 // #Change Language
 
