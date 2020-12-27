@@ -3,14 +3,14 @@
     * Copyright 2013-2020 Start Bootstrap
     * Licensed under MIT (https://github.com/StartBootstrap/startbootstrap-resume/blob/master/LICENSE)
     */
-    (function ($) {
+(function ($) {
     "use strict"; // Start of use strict
 
     // Smooth scrolling using jQuery easing
     $('a.js-scroll-trigger[href*="#"]:not([href="#"])').click(function () {
         if (
             location.pathname.replace(/^\//, "") ===
-                this.pathname.replace(/^\//, "") &&
+            this.pathname.replace(/^\//, "") &&
             location.hostname === this.hostname
         ) {
             var target = $(this.hash);
@@ -65,76 +65,85 @@ $(".underConstructionEn").on("click", function () {
         confirmButtonText: "OK!"
     })
 })
+
 // #Under Construction alert
 
-// Scores
-function tabSpace (id) {
-    document.getElementById(id).innerHTML += "&emsp;";
+
+// Sidebar and Section Titles
+function initDiv(section_id, content_id, title) {
+    $('#' + content_id).append(
+        $('<h3/>').addClass('mb-5').append(title)
+    );
+
+    sideLi(section_id, title);
 }
 
-function score1(id) {
-    tabSpace(id);
-    document.getElementById(id).innerHTML += "<i class='fas fa-circle'></i>";
-    document.getElementById(id).innerHTML += "<i class='far fa-circle'></i>";
-    document.getElementById(id).innerHTML += "<i class='far fa-circle'></i>";
-    document.getElementById(id).innerHTML += "<i class='far fa-circle'></i>";
-    document.getElementById(id).innerHTML += "<i class='far fa-circle'></i>";
+// <section class="resume-section" id="{Section Id}">
+//     <div class="resume-section-content" id="{Section Content Id}">
+//         <h3 class="mb-5">{Title}</h3>
+//         <!-- From Json  -->
+//     </div>
+// </section>
+
+
+function sideLi(href, text) {
+    emptyDiv(href);
+    $('#' + href).append(text);
 }
 
-function score2(id) {
-    tabSpace(id);
-    document.getElementById(id).innerHTML += "<i class='fas fa-circle'></i>";
-    document.getElementById(id).innerHTML += "<i class='fas fa-circle'></i>";
-    document.getElementById(id).innerHTML += "<i class='far fa-circle'></i>";
-    document.getElementById(id).innerHTML += "<i class='far fa-circle'></i>";
-    document.getElementById(id).innerHTML += "<i class='far fa-circle'></i>";
+// <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#{id}">{Text}</a></li>
+
+// #Sidebar and Section Titles
+
+// Empty Divs
+function emptyDiv(id) {
+    $('#' + id).empty();
 }
 
-function score3(id) {
-    tabSpace(id);
-    document.getElementById(id).innerHTML += "<i class='fas fa-circle'></i>";
-    document.getElementById(id).innerHTML += "<i class='fas fa-circle'></i>";
-    document.getElementById(id).innerHTML += "<i class='fas fa-circle'></i>";
-    document.getElementById(id).innerHTML += "<i class='far fa-circle'></i>";
-    document.getElementById(id).innerHTML += "<i class='far fa-circle'></i>";
+// #Empty Divs
+
+// Change Language
+const PATH = 'json/';
+
+window.addEventListener('load', function () {
+    let lang = window.navigator.language.toLowerCase();
+
+    if (lang.match('gr') || lang.match('el')) {
+        changeLang('el');
+    } else {
+        changeLang('en');
+    }
+})
+
+document.getElementById(ABOUT_LANG_ID).addEventListener('click', function () {
+    const element = $('#' + ABOUT_LANG_ID);
+
+    if (element.hasClass('en')) {
+        element.removeClass('en');
+        changeLang('en');
+    } else if (element.hasClass('el')) {
+        element.removeClass('el');
+        changeLang('el');
+    } else {
+        console.log('Error in language file');
+        alert('Error in language file');
+    }
+});
+
+function changeLang(lang) {
+    const cur_path = PATH + lang;
+
+    $('html').attr('lang', lang);
+
+    aboutFetch(cur_path + '/about.json')
+    workExperienceFetch(cur_path + '/workExperience.json');
+    voluntaryExperienceFetch(cur_path + '/voluntaryExperience.json');
+    educationFetch(cur_path + '/education.json');
+    certificationsFetch(cur_path + '/certifications.json');
+    skillsFetch(cur_path + '/skills.json');
+    portfolioFetch(cur_path + '/portfolio.json');
+    interestsFetch(cur_path + '/interests.json');
 }
 
-function score4(id) {
-    tabSpace(id);
-    document.getElementById(id).innerHTML += "<i class='fas fa-circle'></i>";
-    document.getElementById(id).innerHTML += "<i class='fas fa-circle'></i>";
-    document.getElementById(id).innerHTML += "<i class='fas fa-circle'></i>";
-    document.getElementById(id).innerHTML += "<i class='fas fa-circle'></i>";
-    document.getElementById(id).innerHTML += "<i class='far fa-circle'></i>";
-}
+// #Change Language
 
-function score5(id) {
-    tabSpace(id);
-    document.getElementById(id).innerHTML += "<i class='fas fa-circle'></i>";
-    document.getElementById(id).innerHTML += "<i class='fas fa-circle'></i>";
-    document.getElementById(id).innerHTML += "<i class='fas fa-circle'></i>";
-    document.getElementById(id).innerHTML += "<i class='fas fa-circle'></i>";
-    document.getElementById(id).innerHTML += "<i class='fas fa-circle'></i>";
-}
-
-score4('java');
-score4('sql');
-score3('android');
-score3('bootstrap4');
-score3('html5');
-score3('css3');
-score3('javascript');
-score3('php');
-score3('r');
-score3('python');
-score2('laravel');
-score2('c');
-
-
-score5('word');
-score5('excel');
-score5('powerpoint');
-score4('latex');
-score4('github');
-score2('linux');
-// #Scores

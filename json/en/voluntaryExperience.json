@@ -1,0 +1,26 @@
+{
+  "title": "Voluntary Experience",
+  "contents": [
+    {
+      "position": "Reception of Freshmen",
+      "company": "Volunteer Coordination Office, Aristotle University of Thessaloniki",
+      "info": [],
+      "date": "September 2020 - October 2020"
+    },
+    {
+      "position": "Support for Academic Activities",
+      "company": "IT Center of the Aristotle University of Thessaloniki",
+      "info": [
+        {
+          "fa": "<i class='fas fa-desktop'></i>",
+          "text": "Preparing for a teleconferencing service \"Big Blue Button\" upgrade of the university from Flash technology to HTML5; the project started in 2017 and was completed in 2020"
+        },
+        {
+          "fa": "<i class='fas fa-video'></i>",
+          "text": "Audiovisual conference support and video editing for conference sharing through internet"
+        }
+      ],
+      "date": "December 2017 - July 2018"
+    }
+  ]
+}

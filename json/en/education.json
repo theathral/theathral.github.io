@@ -1,0 +1,48 @@
+{
+  "title": "Education",
+  "contents": [
+    {
+      "diploma": "<i class='fas fa-user-graduate'></i>&nbsp;BSc in Computer Science",
+      "organization": "Aristotle University of Thessaloniki",
+      "details": [
+        [
+          "BSc Thesis during Erasmus Exchange with <strong>Prof. Paris Avgeriou</strong> ",
+          "(University of Groningen) as supervisor."
+        ],
+        [
+          "-Find more information about this in \"Portfolio\" section."
+        ]
+      ],
+      "info": [
+        {
+          "fa": "<i class='fas fa-hourglass-half'></i>",
+          "text": "Minimum Attendance Duration: 4 Years"
+        },
+        {
+          "fa": "<i class='fas fa-certificate'></i>",
+          "text": "Grade: 8.42/10"
+        }
+      ],
+      "date": "October 2016 - November 2020"
+    },
+    {
+      "diploma": "Erasmus+ for Studies - Computing Science",
+      "organization": "University of Groningen",
+      "details": [],
+      "info": [],
+      "date": "February 2020 - July 2020"
+    },
+    {
+      "diploma": "High School Diploma",
+      "organization": "5<sup>th</sup> High School of Kalamaria, Thessaloniki",
+      "details": [],
+      "info": [
+        {
+          "fa": "<i class='fas fa-certificate'></i>",
+          "text": "Grade: 19.3/20"
+        }
+      ],
+      "date": "September 2013 - June 2016"
+    }
+  ]
+}

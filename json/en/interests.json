@@ -1,0 +1,29 @@
+{
+  "title": "Interests",
+  "contents": [
+    {
+      "fa": "<i class='fas fa-camera'></i>",
+      "interest": "Photography"
+    },
+    {
+      "fa": "<i class='fas fa-plane'></i>",
+      "interest": "Travelling"
+    },
+    {
+      "fa": "<i class='fas fa-heartbeat'></i>",
+      "interest": "Fitness"
+    },
+    {
+      "fa": "<i class='fas fa-users'></i>",
+      "interest": "Volunteering"
+    },
+    {
+      "fa": "<i class='fas fa-table-tennis'></i>",
+      "interest": "Tennis"
+    },
+    {
+      "fa": "<i class='fas fa-basketball-ball'></i>",
+      "interest": "Basketball"
+    }
+  ]
+}

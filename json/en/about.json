@@ -1,0 +1,71 @@
+{
+  "last_change": "(Updated at: 27-Dec-2020)",
+  "title": "About",
+  "photo_alt": "Profile Photo",
+  "first_name": "Theodosios",
+  "last_name": "Athananakis",
+  "place": "Thessaloniki, Greece",
+  "tel": {
+    "phone": "(+30) 698 363 0792",
+    "href": "+306983630792"
+  },
+  "email": "th.athanasakis@gmail.com",
+  "about": [
+    "Hi!",
+    "<br>",
+    "My name is Theodosis, I am 22 years old and I have studied Computer Science. ",
+    "On this page, you can find information about my education, ",
+    "my work experience, my most important projects etc.",
+    "<br>",
+    "<br>",
+    "My involvement with the field of information technology has taught me to be <strong>patient</strong> and <strong>calm</strong>. ",
+    "Also, I am <strong>organizational</strong>, <strong>responsible</strong> and with a <strong>team spirit</strong>. ",
+    "<strong>I am not afraid to lead</strong>, while the <strong>diplomacy</strong> and ",
+    "the excellent <strong>interpersonal relations</strong> that describes me, ",
+    "give me the opportunity to <strong>\"read between the lines\"</strong>. ",
+    "I <strong>work with motive</strong>, <strong>I am not afraid to take risks</strong>, ",
+    "as well as to assume my responsibilities in case of any miscalculations."
+  ],
+  "social": [
+    {
+      "title": "LinkedIn",
+      "href": "https://www.linkedin.com/in/theodosis-athanasakis/",
+      "fa": "<i class='fab fa-linkedin-in'></i>"
+    },
+    {
+      "title": "Facebook",
+      "href": "https://www.facebook.com/th.athanasakis/",
+      "fa": "<i class='fab fa-facebook-f'></i>"
+    },
+    {
+      "title": "Instagram",
+      "href": "https://www.instagram.com/theodosis_ath/",
+      "fa": "<i class='fab fa-instagram'></i>"
+    },
+    {
+      "title": "Skype",
+      "href": "https://join.skype.com/invite/jnxzb114kxM1",
+      "fa": "<i class='fab fa-skype'></i>"
+    },
+    {
+      "title": "GitHub",
+      "href": "https://github.com/theathral",
+      "fa": "<i class='fab fa-github'></i>"
+    },
+    {
+      "title": "WhatsApp",
+      "href": "https://api.whatsapp.com/send?phone=00306983630792",
+      "fa": "<i class='fab fa-whatsapp'></i>"
+    }
+  ],
+  "cv": {
+    "title": "Resume",
+    "href": "assets/CV-en.pdf",
+    "fa": "<i class='fas fa-download'></i>",
+    "download": "CV Theodosios Athanasakis"
+  },
+  "lang": {
+    "folder": "el",
+    "title": "Ελληνικά"
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "title": "Ενδιαφέροντα",
+  "contents": [
+    {
+      "fa": "<i class='fas fa-camera'></i>",
+      "interest": "Φωτογραφία"
+    },
+    {
+      "fa": "<i class='fas fa-plane'></i>",
+      "interest": "Ταξίδια"
+    },
+    {
+      "fa": "<i class='fas fa-heartbeat'></i>",
+      "interest": "Γυμναστική"
+    },
+    {
+      "fa": "<i class='fas fa-users'></i>",
+      "interest": "Εθελοντισμός"
+    },
+    {
+      "fa": "<i class='fas fa-table-tennis'></i>",
+      "interest": "Τένις"
+    },
+    {
+      "fa": "<i class='fas fa-basketball-ball'></i>",
+      "interest": "Μπάσκετ"
+    }
+  ]
+}

@@ -1,0 +1,155 @@
+{
+  "title": "Skills",
+  "contents": [
+    {
+      "part": "Languages",
+      "items": [
+        {
+          "fa": "<i class='fas fa-check'></i>",
+          "skill": "Greek - Native",
+          "grade": 5
+        },
+        {
+          "fa": "<i class='fas fa-check'></i>",
+          "skill": "English - ECPE (2015)",
+          "grade": 4
+        }
+      ]
+    },
+    {
+      "part": "Programming Languages & Frameworks",
+      "items": [
+        {
+          "fa": "<i class='fab fa-java'></i>",
+          "skill": "Java",
+          "grade": 5
+        },
+        {
+          "fa": "<i class='fas fa-database'></i>",
+          "skill": "SQL",
+          "grade": 4
+        },
+        {
+          "fa": "<i class='fab fa-bootstrap'></i>",
+          "skill": "Bootstrap 4",
+          "grade": 4
+        },
+        {
+          "fa": "<i class='fab fa-html5'></i>",
+          "skill": "Html 5",
+          "grade": 4
+        },
+        {
+          "fa": "<i class='fab fa-css3-alt'></i>",
+          "skill": "CSS 3",
+          "grade": 3
+        },
+        {
+          "fa": "<i class='fab fa-js-square'></i>",
+          "skill": "JavaScript",
+          "grade": 3
+        },
+        {
+          "fa": "<i class='fab fa-php'></i>",
+          "skill": "PHP",
+          "grade": 3
+        },
+        {
+          "fa": "<i class='fab fa-r-project'></i>",
+          "skill": "Language R",
+          "grade": 3
+        },
+        {
+          "fa": "<i class='fab fa-python'></i>",
+          "skill": "Python",
+          "grade": 3
+        },
+        {
+          "fa": "<i class='fab fa-laravel'></i>",
+          "skill": "Laravel",
+          "grade": 3
+        },
+        {
+          "fa": "<i class='fab fa-python'></i>",
+          "skill": "Flask",
+          "grade": 3
+        },
+        {
+          "fa": "<i class='fab fa-android'></i>",
+          "skill": "Android Studio",
+          "grade": 3
+        },
+        {
+          "fa": "<i class='fas fa-code'></i>",
+          "skill": "Prolog",
+          "grade": 3
+        },
+        {
+          "fa": "<i class='fas fa-code'></i>",
+          "skill": "C/C++",
+          "grade": 2
+        }
+      ]
+    },
+    {
+      "part": "Computer Tools",
+      "items": [
+        {
+          "fa": "<i class='fas fa-file-word'></i>",
+          "skill": "Word",
+          "grade": 5
+        },
+        {
+          "fa": "<i class='fas fa-file-excel'></i>",
+          "skill": "Excel",
+          "grade": 5
+        },
+        {
+          "fa": "<i class='fas fa-file-powerpoint'></i>",
+          "skill": "Powerpoint",
+          "grade": 5
+        },
+        {
+          "fa": "<i class='far fa-file-code'></i>",
+          "skill": "Latex / <u><a class='text-black-50' href='https://bit.ly/3jUZ51J' target='_blank'>Overleaf</a></u>",
+          "grade": 5
+        },
+        {
+          "fa": "<i class='far fa-file-alt'></i>",
+          "skill": "Json Format",
+          "grade": 5
+        },
+        {
+          "fa": "<i class='fab fa-windows'></i>",
+          "skill": "Windows",
+          "grade": 4
+        },
+        {
+          "fa": "<i class='fab fa-github'></i>",
+          "skill": "GitHub",
+          "grade": 4
+        },
+        {
+          "fa": "<i class='fas fa-film'></i>",
+          "skill": "Adobe Premiere",
+          "grade": 3
+        },
+        {
+          "fa": "<i class='fas fa-image'></i>",
+          "skill": "Adobe Photoshop",
+          "grade": 3
+        },
+        {
+          "fa": "<i class='fas fa-microphone-alt'></i>",
+          "skill": "Adobe Audition",
+          "grade": 3
+        },
+        {
+          "fa": "<i class='fab fa-linux'></i>",
+          "skill": "Linux",
+          "grade": 3
+        }
+      ]
+    }
+  ]
+}
