@@ -4,48 +4,52 @@
     {
       "title": "Admin Panel",
       "text": [
-        "Description of the document"
+        ""
       ],
       "href": {
-        "message": "Attention message for the user (ex. Only in Greek)",
-        "fa": "<i class='fas fa-download'></i> <i class='fas fa-file-pdf'></i>",
-        "link": "Link to new window"
+        "message": "",
+        "fa": "<i class='fas fa-external-link-alt'></i>",
+        "link": ""
       },
       "date": "Νοέμβριος 2020 - Ιανουάριος 2021"
     },
     {
       "title": "Πτυχιακή Εργασία",
       "text": [
-        "Description of the document"
+        ""
       ],
       "href": {
-        "message": "Attention message for the user (ex. Only in Greek)",
-        "fa": "<i class='fas fa-download'></i> <i class='fas fa-file-pdf'></i>",
-        "link": "Link to new window"
+        "message": "",
+        "fa": "<i class='fas fa-file-pdf'></i>",
+        "link": ""
       },
       "date": "Φεβρουάριος 2020 - Ιούνιος 2020"
     },
     {
       "title": "Ευημερεύοντα Νοσοκομεία",
       "text": [
-        "Description of the document"
+        "Εργασία πανεπιστημίου κατά την διάρκεια του μαθήματος \"Πληροφοριακά συστήματα Παγκόσμιου Ιστού\". Σκοπός ",
+        "της εργασίας είναι η υλοποίηση μιας ιστοσελίδας, η οποία θα δείχνει σε πραγματικό χρόνο τα ευημερεύοντα ",
+        "νοσοκομεία της Ελλάδος, καθώς και τρόπους επικοινωνίας με αυτά. Επίσης, στην ιστοσελίδα, ο χρήστης έχει ",
+        "τη δυνατότητα να αποκομίσει πληροφορίες σχετικά με τον COVID-19, ιό που εξαπλώθηκε παγκοσμίος κατά τα ",
+        "έτη 2020 και 2021."
       ],
       "href": {
-        "message": "Attention message for the user (ex. Only in Greek)",
-        "fa": "<i class='fas fa-download'></i> <i class='fas fa-file-pdf'></i>",
-        "link": "Link to new window"
+        "message": "Βρείτε περισσότερες πληροφορίες στο:",
+        "fa": "<i class='fas fa-external-link-alt'></i>",
+        "link": ""
       },
       "date": "Μάιος 2020"
     },
     {
       "title": "Διαχείρηση Έργου (PERT) & Οικονομική Ανάλυση Έργου",
       "text": [
-        "Description of the document"
+        ""
       ],
       "href": {
-        "message": "Attention message for the user (ex. Only in Greek)",
-        "fa": "<i class='fas fa-download'></i> <i class='fas fa-file-pdf'></i>",
-        "link": "Link to new window"
+        "message": "",
+        "fa": "<i class='fas fa-file-pdf'></i>",
+        "link": ""
       },
       "date": "Δεκέμβριος 2019"
     },
@@ -68,20 +72,21 @@
     {
       "title": "Εργασία Πολλαπλών Πρακτόρων με Jade",
       "text": [
-        "Description of the document"
+        ""
       ],
       "href": {
-        "message": "Attention message for the user (ex. Only in Greek)",
-        "fa": "<i class='fas fa-download'></i> <i class='fas fa-file-pdf'></i>",
-        "link": "Link to new window"
+        "message": "",
+        "fa": "<i class='fas fa-external-link-alt'></i>",
+        "link": ""
       },
       "date": "Δεκέμβριος 2020"
     },
     {
       "title": "Υλοποίηση Αλγορίθμου Κρυπτογράφησης S-DES",
       "text": [
-        "Εργασία πανεπιστημίου στο μάθημα \"Ασφάλεια Δικτύων\". Σκοπός της εργασίας είναι η υλοποίηση του αλγορίθμου ",
-        "κρυπτογράφησης S-DES. Επίσης, στην εργασία περιλαμβάνεται και η διαδικασία αποκρυπτογράφησης μηνύματος."
+        "Εργασία πανεπιστημίου κατά τη διάρκεια του μαθήματος \"Ασφάλεια Δικτύων\". Σκοπός της εργασίας είναι ",
+        "η υλοποίηση του αλγορίθμου κρυπτογράφησης S-DES. Επίσης, στην εργασία περιλαμβάνεται και η διαδικασία ",
+        "αποκρυπτογράφησης μηνύματος."
       ],
       "href": {
         "message": "Βρείτε περισσότερες πληροφορίες για την εργασία:",
