@@ -11,23 +11,15 @@ function portfolioFetch(path) {
 function portfolioDiv(json) {
     sideLi(PORTFOLIO_LINK, json.title);
 
-    if (document.documentElement.lang === 'en') {
-        $('#portfolioLink').removeClass('underConstruction');
-        $('#portfolioLink').addClass('underConstructionEn');
-    } else {
-        $('#portfolioLink').removeClass('underConstructionEn');
-        $('#portfolioLink').addClass('underConstruction');
+    let title = json.title;
+    let contents = json.contents;
+
+    emptyDiv(PORTFOLIO_CONT_ID);
+    initDiv(PORTFOLIO_LINK, PORTFOLIO_CONT_ID, title)
+
+    for (let i = 0; i < contents.length; i++) {
+        portfolioDivSingle(contents[i]);
     }
-
-    // let title = json.title;
-    // let contents = json.contents;
-
-    // emptyDiv(PORTFOLIO_CONT_ID);
-    // initDiv(PORTFOLIO_LINK, PORTFOLIO_CONT_ID, title)
-    //
-    // for (let i = 0; i < contents.length; i++) {
-    //     portfolioDivSingle(contents[i]);
-    // }
 }
 
 function portfolioDivSingle(item) {

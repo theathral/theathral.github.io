@@ -2,7 +2,7 @@
   "title": "Δείγμα Δουλειάς",
   "contents": [
     {
-      "title": "Title of the document",
+      "title": "Admin Panel",
       "text": [
         "Description of the document"
       ],
@@ -11,7 +11,84 @@
         "fa": "<i class='fas fa-download'></i> <i class='fas fa-file-pdf'></i>",
         "link": "Link to new window"
       },
-      "date": "Date of the document"
+      "date": "Νοέμβριος 2020 - Ιανουάριος 2021"
+    },
+    {
+      "title": "Πτυχιακή Εργασία",
+      "text": [
+        "Description of the document"
+      ],
+      "href": {
+        "message": "Attention message for the user (ex. Only in Greek)",
+        "fa": "<i class='fas fa-download'></i> <i class='fas fa-file-pdf'></i>",
+        "link": "Link to new window"
+      },
+      "date": "Φεβρουάριος 2020 - Ιούνιος 2020"
+    },
+    {
+      "title": "Ευημερεύοντα Νοσοκομεία",
+      "text": [
+        "Description of the document"
+      ],
+      "href": {
+        "message": "Attention message for the user (ex. Only in Greek)",
+        "fa": "<i class='fas fa-download'></i> <i class='fas fa-file-pdf'></i>",
+        "link": "Link to new window"
+      },
+      "date": "Μάιος 2020"
+    },
+    {
+      "title": "Διαχείρηση Έργου (PERT) & Οικονομική Ανάλυση Έργου",
+      "text": [
+        "Description of the document"
+      ],
+      "href": {
+        "message": "Attention message for the user (ex. Only in Greek)",
+        "fa": "<i class='fas fa-download'></i> <i class='fas fa-file-pdf'></i>",
+        "link": "Link to new window"
+      },
+      "date": "Δεκέμβριος 2019"
+    },
+    {
+      "title": "Εύρεση Διαρροής Φρεατίων σε CLIPS",
+      "text": [
+        "Εργασία Πανεπιστημίου, κατά την διάρκεια του μαθήματος \"Συστήματα Γνώσης\". Σκοπός της εργασίας, είναι ",
+        "η δημιουργία ενός έμπειρου συστήματος γνώσης σε γλώσσα CLIPS, που να συμπεραίνει την τοποθεσία μιας βλάβης ",
+        "σε ένα εργοστάσιο, βάσει μετρήσεων που καταχωρούνται στο σύστημα. Επίσης, αποτυπώνει μία δοσμένη τοπολογία ",
+        "φρεατίων και αποθηκών, καθώς και τα χαρακτηριστικά ορισμένων χημικών στοιχείων, ώστε να οδηγηθεί σε κάποιο ",
+        "συμπέρασμα."
+      ],
+      "href": {
+        "message": "Βρείτε περισσότερες πληροφορίες για την εργασία:",
+        "fa": "<i class='fas fa-external-link-alt'></i>",
+        "link": "https://github.com/theathral/manholeCLIPS.git"
+      },
+      "date": "Δεκέμβριος 2019"
+    },
+    {
+      "title": "Εργασία Πολλαπλών Πρακτόρων με Jade",
+      "text": [
+        "Description of the document"
+      ],
+      "href": {
+        "message": "Attention message for the user (ex. Only in Greek)",
+        "fa": "<i class='fas fa-download'></i> <i class='fas fa-file-pdf'></i>",
+        "link": "Link to new window"
+      },
+      "date": "Δεκέμβριος 2020"
+    },
+    {
+      "title": "Υλοποίηση Αλγορίθμου Κρυπτογράφησης S-DES",
+      "text": [
+        "Εργασία πανεπιστημίου στο μάθημα \"Ασφάλεια Δικτύων\". Σκοπός της εργασίας είναι η υλοποίηση του αλγορίθμου ",
+        "κρυπτογράφησης S-DES. Επίσης, στην εργασία περιλαμβάνεται και η διαδικασία αποκρυπτογράφησης μηνύματος."
+      ],
+      "href": {
+        "message": "Βρείτε περισσότερες πληροφορίες για την εργασία:",
+        "fa": "<i class='fas fa-external-link-alt'></i>",
+        "link": "https://github.com/theathral/S-DES.git"
+      },
+      "date": "Σεπτέμβριος 2020"
     }
   ]
 }
