@@ -1,4 +1,3 @@
-// Portfolio
 const PORTFOLIO_LINK = 'portfolioLink';
 const PORTFOLIO_CONT_ID = 'portfolioContent';
 
@@ -33,9 +32,9 @@ function portfolioDivSingle(item) {
     $('#' + PORTFOLIO_CONT_ID).append(
         $('<div/>').addClass(['d-flex', 'flex-column', 'flex-column', 'flex-md-row', 'justify-content-between', 'mb-5']).append(
             $('<div/>').addClass('flex-grow-1').append(
-                $('<h4/>').addClass('mb-0').append(title),
+                $('<h4/>').addClass('mb-3').append(title),
                 $('<div/>').addClass('mb-3').append(text),
-                $('<p/>').append(hrefMsg).append(
+                $('<small/>').append(hrefMsg).append(
                     $('<a/>')
                         .attr('href', href)
                         .attr('target', '_blank')
@@ -50,6 +49,3 @@ function portfolioDivSingle(item) {
         )
     );
 }
-
-
-// #Portfolio

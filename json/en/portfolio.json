@@ -2,16 +2,106 @@
   "title": "Portfolio",
   "contents": [
     {
-      "title": "Title of the document",
+      "title": "Admin Panel",
       "text": [
-        "Description of the document"
+        ""
       ],
       "href": {
-        "message": "Attention message for the user (ex. Only in Greek)",
-        "fa": "<i class='fas fa-download'></i> <i class='fas fa-file-pdf'></i>",
-        "link": "Link to new window"
+        "message": "",
+        "fa": "<i class='fas fa-external-link-alt'></i>",
+        "link": ""
       },
-      "date": "Date of the document"
+      "date": "November 2020 - Now"
+    },
+    {
+      "title": "Bachelor Thesis",
+      "text": [
+        ""
+      ],
+      "href": {
+        "message": "",
+        "fa": "<i class='fas fa-file-pdf'></i>",
+        "link": "portfolio/Bachelor Thesis.zip"
+      },
+      "date": "February 2020 - June 2020"
+    },
+    {
+      "title": "On Duty Hospitals Website",
+      "text": [
+        "Εργασία προπτυχιακού επιπέδου κατά την διάρκεια του μαθήματος \"Πληροφοριακά συστήματα Παγκόσμιου Ιστού\". ",
+        "Σκοπός της εργασίας είναι η υλοποίηση μιας ιστοσελίδας, η οποία θα αποικονίζει σε πραγματικό χρόνο τα ",
+        "ευημερεύοντα νοσοκομεία της Ελλάδος, καθώς και τρόπους επικοινωνίας με αυτά. Επίσης, στην ιστοσελίδα, ο ",
+        "χρήστης έχει τη δυνατότητα να αποκομίσει πληροφορίες σχετικά με τον COVID-19, ιός που εξαπλώθηκε παγκοσμίως ",
+        "κατά τα έτη 2020 και 2021."
+      ],
+      "href": {
+        "message": "Please, find more information about the project:",
+        "fa": "<i class='fas fa-external-link-alt'></i>",
+        "link": "https://theathral.github.io/WebInformationSystems/"
+      },
+      "date": "May 2020"
+    },
+    {
+      "title": "PERT Diagram & Economic Analysis of Project",
+      "text": [
+        "Εργασία προπτυχιακού επιπέδου κατά την διάρκεια του μαθήματος \"Διασφάλιση Ποιότητας Συστημάτων Λογισμικού\". ",
+        "Σκοπός της εργασίας είναι η σχεδίαση ενός διαγράμματος PERT για την υλοποίηση ενός έργου, με δεδομένους ",
+        "τους χρόνους των επί μέρους εργασιών, καθώς και σχολιασμός των αποτελεσμάτων.",
+        "<br>",
+        "Επίσης, η δεύτερη άσκηση της εργασίας περιλαμβάνει επιλογή και οικονομική ανάλυση δύο έργων βάσει της ",
+        "\"Απόδοση Επένδυσης\" (Return on Investment) σε βάθος 7 ετών."
+      ],
+      "href": {
+        "message": "Please find the pronunciation and the solution of the project (only in greek):",
+        "fa": "<i class='fas fa-file-pdf'></i>",
+        "link": "portfolio/PERT Project.zip"
+      },
+      "date": "December 2019"
+    },
+    {
+      "title": "Leakage Discovery in Manholes using CLIPS",
+      "text": [
+        "Εργασία προπτυχιακού επιπέδου, κατά την διάρκεια του μαθήματος \"Συστήματα Γνώσης\". Σκοπός της εργασίας, ",
+        "είναι η δημιουργία ενός έμπειρου συστήματος γνώσης σε γλώσσα CLIPS, που να συμπεραίνει την τοποθεσία μιας ",
+        "βλάβης σε ένα εργοστάσιο, βάσει μετρήσεων που καταχωρούνται στο σύστημα. Επίσης, αποτυπώνει μία δοσμένη ",
+        "τοπολογία φρεατίων και αποθηκών, καθώς και τα χαρακτηριστικά ορισμένων χημικών στοιχείων, ώστε να οδηγηθεί ",
+        "σε κάποιο συμπέρασμα."
+      ],
+      "href": {
+        "message": "Please, find more information about the project:",
+        "fa": "<i class='fas fa-external-link-alt'></i>",
+        "link": "https://theathral.github.io/manholeCLIPS/"
+      },
+      "date": "December 2019"
+    },
+    {
+      "title": "Maze Solution using JADE",
+      "text": [
+        "Εργασία προπτυχιακού επιπέδου κατά τη διάρκεια του μαθήματος \"Συστήματα Πολλαπλών Πρακτόρων\". Σκοπός της ",
+        "εργασίας είναι η δημιουργία ενός συστήματος πολλαπλών πρακτόρων με την τεχνολογία Jade. Στο πρόγραμμα ",
+        "υλοποιείται ένα παιχνίδι λαβυρίνθου, όπου \"πράκτορες\" (Agents) του συστήματος, συνεργάζονται για να βρουν ",
+        "την έξοδο. Στο πρόγραμμα χρησιμοποιούνται οι αλγόριθμοι \"Best-First Search\" και \"A* Search\"."
+      ],
+      "href": {
+        "message": "Please, find more information about the project:",
+        "fa": "<i class='fas fa-external-link-alt'></i>",
+        "link": "https://sseficha.github.io/AgentsProject/"
+      },
+      "date": "December 2019"
+    },
+    {
+      "title": "S-DES (Cryptography) Algorithm Implementation",
+      "text": [
+        "Εργασία προπτυχιακού επιπέδου κατά τη διάρκεια του μαθήματος \"Ασφάλεια Δικτύων\". Σκοπός της εργασίας είναι ",
+        "η υλοποίηση του αλγορίθμου κρυπτογράφησης S-DES. Επίσης, στην εργασία περιλαμβάνεται και η διαδικασία ",
+        "αποκρυπτογράφησης μηνύματος."
+      ],
+      "href": {
+        "message": "Please, find more information about the project:",
+        "fa": "<i class='fas fa-external-link-alt'></i>",
+        "link": "https://theathral.github.io/S-DES/"
+      },
+      "date": "September 2020"
     }
   ]
 }
