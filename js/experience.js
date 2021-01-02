@@ -73,17 +73,3 @@ function experienceSingleInfo(id, info) {
         )
     );
 }
-
-
-// <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
-//     <div class="flex-grow-1">
-//         <h4 class="mb-0">{Position}</h4>
-//         <div class="subheading mb-3">{Company}</div>
-//         <ul class="fa-ul mb-0">
-//             <li>
-//                 <span class="fa-li">{fas fa}</span>&nbsp;{Info Text}
-//             </li>
-//         </ul>
-//     </div>
-//     <div class="flex-shrink-0"><span class="text-info">{Date}</span></div>
-// </div>

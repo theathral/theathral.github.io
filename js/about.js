@@ -106,11 +106,3 @@ function aboutCV(id, cv) {
             .append(fa)
     )
 }
-
-// <a class="social-icon bg-info m-2"
-//    href="{href}"
-//    target="_blank"
-//    title="{title}">
-//    {fas fa}
-// </a>
-

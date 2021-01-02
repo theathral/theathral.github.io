@@ -2,16 +2,104 @@
   "title": "Portfolio",
   "contents": [
     {
-      "title": "Title of the document",
+      "title": "Admin Panel",
       "text": [
-        "Description of the document"
+        ""
       ],
       "href": {
-        "message": "Attention message for the user (ex. Only in Greek)",
-        "fa": "<i class='fas fa-download'></i> <i class='fas fa-file-pdf'></i>",
-        "link": "Link to new window"
+        "message": "",
+        "fa": "<i class='fas fa-external-link-alt'></i>",
+        "link": ""
       },
-      "date": "Date of the document"
+      "date": "November 2020 - Now"
+    },
+    {
+      "title": "Bachelor Thesis",
+      "text": [
+        ""
+      ],
+      "href": {
+        "message": "",
+        "fa": "<i class='fas fa-file-pdf'></i>",
+        "link": "portfolio/Bachelor Thesis.zip"
+      },
+      "date": "February 2020 - June 2020"
+    },
+    {
+      "title": "On Duty Hospitals Website (Flask)",
+      "text": [
+        "Bachelor level project during \"Web Information Systems\" course. The goal of the project is the creation ",
+        "of a website, which represents in real time, all the on-duty hospitals of Greece, as well as their contact ",
+        "details. Moreover, the user has the opportunity to find information about COVID-19, virus that spread ",
+        "worldwide during 2020 and 2021."
+      ],
+      "href": {
+        "message": "Please, find more information about the project:",
+        "fa": "<i class='fas fa-external-link-alt'></i>",
+        "link": "https://theathral.github.io/WebInformationSystems/"
+      },
+      "date": "May 2020"
+    },
+    {
+      "title": "PERT Diagram & Economic Analysis of Project",
+      "text": [
+        "Bachelor level project during \"Software Systems Quality Assurance\" course. The goal of the project is ",
+        "the designing of a PERT diagram showing the construction of a project, using given construction times of the ",
+        "individual projects, as well as the analysis of the results.",
+        "<br>",
+        "The second exercise of the project refers to the selection and economic analysis of two big projects, ",
+        "based on the \"Return on Investment\" value after 7 years."
+      ],
+      "href": {
+        "message": "Please find the pronunciation and the solution of the project (only in greek):",
+        "fa": "<i class='fas fa-file-pdf'></i>",
+        "link": "portfolio/PERT Project.zip"
+      },
+      "date": "December 2019"
+    },
+    {
+      "title": "Leakage Discovery in Manholes (CLIPS)",
+      "text": [
+        "Bachelor level project during \"Knowledge Systems\" course. The goal of the project is the creation of an ",
+        "expert system using CLIPS, which deduces the location of a malfunction at a factory from a series of ",
+        "measurements, that are entered into the program. Moreover, it constructs a given topology of manholes and ",
+        "warehouses, as well as the characteristics of some chemicals, so that the program comes to a reliable ",
+        "conclusion."
+      ],
+      "href": {
+        "message": "Please, find more information about the project:",
+        "fa": "<i class='fas fa-external-link-alt'></i>",
+        "link": "https://theathral.github.io/manholeCLIPS/"
+      },
+      "date": "December 2019"
+    },
+    {
+      "title": "Maze Solution (JADE)",
+      "text": [
+        "Bachelor level project during \"Multi-Agent Systems\" course. The goal of the project is the creation of ",
+        "a multi-agent system using JADE technology. The program implements a maze game, where \"agents\" of the ",
+        "program are collaborating to find the exit. In order for the goal to be accomplished, the algorithms ",
+        "\"Best-First Search\" and \"A* Search\" are, also, being used."
+      ],
+      "href": {
+        "message": "Please, find more information about the project:",
+        "fa": "<i class='fas fa-external-link-alt'></i>",
+        "link": "https://sseficha.github.io/AgentsProject/"
+      },
+      "date": "December 2019"
+    },
+    {
+      "title": "S-DES Algorithm Implementation (Python)",
+      "text": [
+        "Bachelor level project during \"Network Security\" course. The goal of the project is the implementation of ",
+        "the cryptography algorithm named S-DES. Also, the project includes the decoding procedure of a message."
+      ],
+      "href": {
+        "message": "Please, find more information about the project:",
+        "fa": "<i class='fas fa-external-link-alt'></i>",
+        "link": "https://theathral.github.io/S-DES/"
+      },
+      "date": "September 2020"
     }
   ]
 }

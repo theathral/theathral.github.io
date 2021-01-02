@@ -1,4 +1,3 @@
-// Interests
 const INTERESTS_LINK = 'interestsLink';
 const INTERESTS_CONT_ID = 'interestsContent';
 const INTERESTS_SECTION_ID = 'interestsSection';
@@ -36,12 +35,3 @@ function interestsDivSingle(item) {
         )
     );
 }
-
-// #Interests
-
-
-// <ul className="fa-ul mb-0">
-//     <li><span className="fa-li">{fas fa}</span>&nbsp;{Interest}</li>
-//     <li><span className="fa-li">{fas fa}</span>&nbsp;{Interest}</li>
-// </ul>
-

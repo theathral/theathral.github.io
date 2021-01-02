@@ -4,6 +4,9 @@ const MAX_GRADE = 5
 function score(grade) {
     let str = '&emsp;';
 
+    if (!Number.isInteger(grade))
+        return str + grade;
+
     for (let i = 0; i < grade; i++) {
         str += '<i class="fas fa-circle"></i>';
     }
@@ -17,7 +20,6 @@ function score(grade) {
 
 // #Scores
 
-// Skills
 const SKILL_ID = 'skillsLink';
 const SKILL_CONT_ID = 'skillsContent';
 const SKILL_SECTION_ID = 'skillsSection';
@@ -63,17 +65,3 @@ function skillsDivSingle(id, item) {
         )
     );
 }
-
-// #Skills
-
-
-// <table className="ml-3 mb-3">
-//     <tr>
-//         <td>{fas fa} {Skill}</td>
-//         <td>{score}</td>
-//     </tr>
-//     <tr>
-//         <td>{fas fa} {Skill}</td>
-//         <td>{score}</td>
-//     </tr>
-// </table>
