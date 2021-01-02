@@ -26,7 +26,7 @@
       "date": "February 2020 - June 2020"
     },
     {
-      "title": "On Duty Hospitals Website",
+      "title": "On Duty Hospitals Website (Flask)",
       "text": [
         "Bachelor level project during \"Web Information Systems\" course. The goal of the project is the creation ",
         "of a website, which represents in real time, all the on-duty hospitals of Greece, as well as their contact ",
@@ -58,7 +58,7 @@
       "date": "December 2019"
     },
     {
-      "title": "Leakage Discovery in Manholes using CLIPS",
+      "title": "Leakage Discovery in Manholes (CLIPS)",
       "text": [
         "Bachelor level project during \"Knowledge Systems\" course. The goal of the project is the creation of an ",
         "expert system using CLIPS, which deduces the location of a malfunction at a factory from a series of ",
@@ -74,7 +74,7 @@
       "date": "December 2019"
     },
     {
-      "title": "Maze Solution using JADE",
+      "title": "Maze Solution (JADE)",
       "text": [
         "Bachelor level project during \"Multi-Agent Systems\" course. The goal of the project is the creation of ",
         "a multi-agent system using JADE technology. The program implements a maze game, where \"agents\" of the ",
@@ -89,7 +89,7 @@
       "date": "December 2019"
     },
     {
-      "title": "S-DES (Cryptography) Algorithm Implementation",
+      "title": "S-DES Algorithm Implementation (Python)",
       "text": [
         "Bachelor level project during \"Network Security\" course. The goal of the project is the implementation of ",
         "the cryptography algorithm named S-DES. Also, the project includes the decoding procedure of a message."
