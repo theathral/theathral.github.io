@@ -17,6 +17,12 @@ function portfolioDiv(json) {
     initDiv(PORTFOLIO_LINK, PORTFOLIO_CONT_ID, title)
 
     for (let i = 0; i < contents.length; i++) {
+
+        // Temp
+        if (contents[i].href.message === "")
+            continue;
+        // #Temp
+
         portfolioDivSingle(contents[i]);
     }
 }

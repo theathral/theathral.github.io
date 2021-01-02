@@ -6,13 +6,13 @@
       "items": [
         {
           "fa": "<i class='fas fa-check'></i>",
-          "skill": "Ελληνικά - Μητρική",
-          "grade": 5
+          "skill": "Ελληνικά",
+          "grade": "Μητρική"
         },
         {
           "fa": "<i class='fas fa-check'></i>",
-          "skill": "Αγγλικά - ECPE (2015)",
-          "grade": 4
+          "skill": "Αγγλικά",
+          "grade": "ECPE (2015)"
         }
       ]
     },
@@ -81,7 +81,7 @@
         },
         {
           "fa": "<i class='fas fa-code'></i>",
-          "skill": "Prolog",
+          "skill": "Prolog / CLIPS",
           "grade": 3
         },
         {

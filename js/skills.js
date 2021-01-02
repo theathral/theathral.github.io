@@ -4,6 +4,9 @@ const MAX_GRADE = 5
 function score(grade) {
     let str = '&emsp;';
 
+    if (!Number.isInteger(grade))
+        return str + grade;
+
     for (let i = 0; i < grade; i++) {
         str += '<i class="fas fa-circle"></i>';
     }

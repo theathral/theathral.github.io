@@ -6,13 +6,13 @@
       "items": [
         {
           "fa": "<i class='fas fa-check'></i>",
-          "skill": "Greek - Native",
-          "grade": 5
+          "skill": "Greek",
+          "grade": "Native"
         },
         {
           "fa": "<i class='fas fa-check'></i>",
-          "skill": "English - ECPE (2015)",
-          "grade": 4
+          "skill": "English",
+          "grade": "ECPE (2015)"
         }
       ]
     },
@@ -81,7 +81,7 @@
         },
         {
           "fa": "<i class='fas fa-code'></i>",
-          "skill": "Prolog",
+          "skill": "Prolog / CLIPS",
           "grade": 3
         },
         {
