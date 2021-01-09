@@ -2,6 +2,18 @@
   "title": "Πιστοποιήσεις & Σεμινάρια",
   "contents": [
     {
+      "diploma": "<i class='fas fa-certificate'></i>&nbsp;ServiceNow Certified System Administrator",
+      "organization": "ServiceNow",
+      "details": [],
+      "info": [
+        {
+          "fa": "<i class='fas fa-wrench'></i>",
+          "text": "To ServiceNow CSN πιστοποιεί ότι ο κάτοχος έχει τις δεξιότητες και τις απαραίτητες γνώσεις για να διαχειριστεί ρυθμίσεις, υλοποιήσεις, και συντήρηση της πλατφόρμας ServiceNow."
+        }
+      ],
+      "date": "Ιανουάριος 2021"
+    },
+    {
       "diploma": "Ευέλικτες Μεθοδολογίες Ανάπτυξης Λογισμικού Υπολογιστικής Νέφους",
       "organization": "Deloitte - Πανεπιστήμιο Μακεδομίας",
       "details": [

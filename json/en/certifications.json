@@ -2,6 +2,18 @@
   "title": "Certifications & Seminars",
   "contents": [
     {
+      "diploma": "<i class='fas fa-certificate'></i>&nbsp;ServiceNow Certified System Administrator",
+      "organization": "ServiceNow",
+      "details": [],
+      "info": [
+        {
+          "fa": "<i class='fas fa-wrench'></i>",
+          "text": "The ServiceNow CSN certifies that the owner has the skills and essential knowledge necessary to manage the configuration, implementation, and maintenance of the ServiceNow platform."
+        }
+      ],
+      "date": "January 2021"
+    },
+    {
       "diploma": "Agile Methodologies of Cloud Software Engineering",
       "organization": "Deloitte - University of Macedonia",
       "details": [
