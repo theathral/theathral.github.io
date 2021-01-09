@@ -11,10 +11,15 @@ function portfolioDiv(json) {
     sideLi(PORTFOLIO_LINK, json.title);
 
     let title = json.title;
+    let subtext = json.subtext;
     let contents = json.contents;
 
     emptyDiv(PORTFOLIO_CONT_ID);
     initDiv(PORTFOLIO_LINK, PORTFOLIO_CONT_ID, title)
+
+    $('#' + PORTFOLIO_CONT_ID).append(
+        $('<div/>').addClass('my-5').append(subtext)
+    )
 
     for (let i = 0; i < contents.length; i++) {
 

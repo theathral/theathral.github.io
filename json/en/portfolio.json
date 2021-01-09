@@ -1,5 +1,6 @@
 {
   "title": "Portfolio",
+  "subtext": "Further down, you can find the best projects that I have participated in order of importance.",
   "contents": [
     {
       "title": "Octopus",
@@ -15,8 +16,9 @@
         "<li>Log Files Surveillance</li>",
         "</ul>",
         "<br>",
-        "The application is offered as SaaS and created using the \"Laravel\" programming language for advanced ",
+        "It is offered as SaaS and created using the \"Laravel\" programming language for advanced ",
         "security.",
+        "<br>",
         "<br>",
         "The application was constructed in collaboration with ",
         "<a href='https://nmanoukidis.netzapping.gr/' target='_blank' class='text-info'>Nikolaos Manoukidis</a>."
@@ -102,6 +104,25 @@
         "link": "https://sseficha.github.io/AgentsProject/"
       },
       "date": "December 2019"
+    },
+    {
+      "title": "LateX Document Template",
+      "text": [
+        "Document template in LaTeX, that is suitable for assignments, reports, theses, or similar papers that ",
+        "are written in Greek.",
+        "<br>",
+        "<br>",
+        "\"LaTeX is a high-quality typesetting system; it includes features designed for the production of technical ",
+        "and scientific documentation. LaTeX is the de facto standard for the communication and publication of ",
+        "scientific documents.\"",
+        "<a href='https://www.latex-project.org/' target='_blank' class='text-info blockquote-footer'>The LaTeX Project</a>"
+      ],
+      "href": {
+        "message": "Please, find more information about the template:",
+        "fa": "<i class='fas fa-external-link-alt'></i>",
+        "link": "https://bit.ly/3jUZ51J"
+      },
+      "date": "July 2020"
     },
     {
       "title": "S-DES Algorithm Implementation (Python)",

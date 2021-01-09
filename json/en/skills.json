@@ -81,13 +81,13 @@
         },
         {
           "fa": "<i class='fas fa-code'></i>",
-          "skill": "Prolog / CLIPS",
+          "skill": "C/C++",
           "grade": 3
         },
         {
           "fa": "<i class='fas fa-code'></i>",
-          "skill": "C/C++",
-          "grade": 2
+          "skill": "Prolog / CLIPS",
+          "grade": 3
         }
       ]
     },
@@ -111,7 +111,7 @@
         },
         {
           "fa": "<i class='far fa-file-code'></i>",
-          "skill": "Latex / <u><a class='text-black-50' href='https://bit.ly/3jUZ51J' target='_blank'>Overleaf</a></u>",
+          "skill": "LaTeX / <u><a class='text-black-50' href='https://bit.ly/3jUZ51J' target='_blank'>Overleaf</a></u>",
           "grade": 5
         },
         {
