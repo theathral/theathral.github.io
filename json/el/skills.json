@@ -30,6 +30,11 @@
           "grade": 4
         },
         {
+          "fa": "<i class='fab fa-laravel'></i>",
+          "skill": "Laravel",
+          "grade": 4
+        },
+        {
           "fa": "<i class='fab fa-bootstrap'></i>",
           "skill": "Bootstrap 4",
           "grade": 4
@@ -62,11 +67,6 @@
         {
           "fa": "<i class='fab fa-python'></i>",
           "skill": "Python",
-          "grade": 3
-        },
-        {
-          "fa": "<i class='fab fa-laravel'></i>",
-          "skill": "Laravel",
           "grade": 3
         },
         {
@@ -130,6 +130,11 @@
           "grade": 4
         },
         {
+          "fa": "<i class='fab fa-linux'></i>",
+          "skill": "Linux",
+          "grade": 3
+        },
+        {
           "fa": "<i class='fas fa-film'></i>",
           "skill": "Adobe Premiere",
           "grade": 3
@@ -142,11 +147,6 @@
         {
           "fa": "<i class='fas fa-microphone-alt'></i>",
           "skill": "Adobe Audition",
-          "grade": 3
-        },
-        {
-          "fa": "<i class='fab fa-linux'></i>",
-          "skill": "Linux",
           "grade": 3
         }
       ]
