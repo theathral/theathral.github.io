@@ -33,10 +33,22 @@
     {
       "title": "Bachelor Thesis",
       "text": [
-        ""
+        "My Bachelor Thesis was composed during my Erasmus exchange on the subject of ",
+        ",<strong>\"Measuring Parent Centrality in Java Packages\"</strong>. The supervisor was Prof. Paris Avgeriou ",
+        "from the University of Groningen. In particular, the thesis implements a well-known metric among ",
+        "software engineers, <strong>Parent Centrality</strong>, inside an existing tool, <strong>ASTracker</strong>. ",
+        "Moreover, the paper interprets the results to conclude if this metric is useful.",
+        "<br>",
+        "Experts in software engineering are aware of the fact that inside the source code of a program, ",
+        "some specific components may cause problems while maintaining or expanding it. Parent Centrality metric ",
+        "that H. A. Al-Mutawa has proposed points out that if additional characteristics exist in these \"harmful\" ",
+        "components, it turns them into \"harmless\" ones.",
+        "<br>",
+        "After analyzing a set of open-source Java projects, we confirmed H. A. Al-Mutawa's claim by matching our ",
+        "results with his."
       ],
       "href": {
-        "message": "",
+        "message": "Please find my thesis file (only in english):",
         "fa": "<i class='fas fa-file-pdf'></i>",
         "link": "portfolio/Bachelor Thesis.zip"
       },
