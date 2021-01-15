@@ -7,7 +7,7 @@
       "text": [
         "\"Octopus\" application is an incident management system geared towards small companies. Every user ",
         "is part of one or more groups in order to acquire specific capabilities inside the program. Furthermore, ",
-        "users can fulfill, depending on their privileges, the actions below:",
+        "users can perform, depending on their privileges, the actions below:",
         "<ul>",
         "<li>Incident and Request Management (Submission, Case Monitoring, Completion)</li>",
         "<li>Statistics Monitoring</li>",
@@ -16,7 +16,7 @@
         "<li>Log Files Surveillance</li>",
         "</ul>",
         "<br>",
-        "It is offered as SaaS and created using the \"Laravel\" programming language for advanced ",
+        "It is offered as SaaS and was created using the \"Laravel\" programming language for advanced ",
         "security.",
         "<br>",
         "<br>",
