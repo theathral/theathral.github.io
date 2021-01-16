@@ -96,8 +96,7 @@ function emptyDiv(id) {
 // Change Language
 const PATH = 'json/';
 
-// window.addEventListener('load', function () {
-function load() {
+window.addEventListener('load', function () {
     let lang = window.navigator.language.toLowerCase();
 
     if (lang.match('gr') || lang.match('el')) {
@@ -105,7 +104,7 @@ function load() {
     } else {
         changeLang('en');
     }
-}
+})
 
 document.getElementById(ABOUT_LANG_ID).addEventListener('click', function () {
     const element = $('#' + ABOUT_LANG_ID);
