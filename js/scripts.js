@@ -3,43 +3,43 @@
     * Copyright 2013-2020 Start Bootstrap
     * Licensed under MIT (https://github.com/StartBootstrap/startbootstrap-resume/blob/master/LICENSE)
     */
-(function ($) {
-    "use strict"; // Start of use strict
-
-    // Smooth scrolling using jQuery easing
-    $('a.js-scroll-trigger[href*="#"]:not([href="#"])').click(function () {
-        if (
-            location.pathname.replace(/^\//, "") ===
-            this.pathname.replace(/^\//, "") &&
-            location.hostname === this.hostname
-        ) {
-            var target = $(this.hash);
-            target = target.length
-                ? target
-                : $("[name=" + this.hash.slice(1) + "]");
-            if (target.length) {
-                $("html, body").animate(
-                    {
-                        scrollTop: target.offset().top,
-                    },
-                    1000,
-                    "easeInOutExpo"
-                );
-                return false;
-            }
+// Smooth scrolling using jQuery easing
+$('.js-scroll-trigger').click(function () {
+    if (
+        location.pathname.replace(/^\//, "") ===
+        this.pathname.replace(/^\//, "") &&
+        location.hostname === this.hostname
+    ) {
+        var target = $(this.hash);
+        target = target.length
+            ? target
+            : $("[name=" + this.hash.slice(1) + "]");
+        if (target.length) {
+            $("html, body").animate(
+                {
+                    scrollTop: target.offset().top,
+                },
+                1000,
+                "easeInOutExpo"
+            );
+            return false;
         }
-    });
+    }
+});
+// #Smooth scrolling using jQuery easing
 
-    // Closes responsive menu when a scroll trigger link is clicked
-    $(".js-scroll-trigger").click(function () {
-        $(".navbar-collapse").collapse("hide");
-    });
+// Closes responsive menu when a scroll trigger link is clicked
+$(".js-scroll-trigger").click(function () {
+    $(".navbar-collapse").collapse("hide");
+});
+// #Closes responsive menu when a scroll trigger link is clicked
 
-    // Activate scrollspy to add active class to navbar items on scroll
-    $("body").scrollspy({
-        target: "#sideNav",
-    });
-})(jQuery); // End of use strict
+// Activate scrollspy to add active class to navbar items on scroll
+$("body").scrollspy({
+    target: "#sideNav",
+});
+// #Activate scrollspy to add active class to navbar items on scroll
+
 
 // My scripts //
 
@@ -78,22 +78,13 @@ function initDiv(section_id, content_id, title) {
     sideLi(section_id, title);
 }
 
-// <section class="resume-section" id="{Section Id}">
-//     <div class="resume-section-content" id="{Section Content Id}">
-//         <h3 class="mb-5">{Title}</h3>
-//         <!-- From Json  -->
-//     </div>
-// </section>
-
-
 function sideLi(href, text) {
     emptyDiv(href);
     $('#' + href).append(text);
 }
 
-// <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#{id}">{Text}</a></li>
-
 // #Sidebar and Section Titles
+
 
 // Empty Divs
 function emptyDiv(id) {
@@ -105,7 +96,8 @@ function emptyDiv(id) {
 // Change Language
 const PATH = 'json/';
 
-window.addEventListener('load', function () {
+// window.addEventListener('load', function () {
+function load() {
     let lang = window.navigator.language.toLowerCase();
 
     if (lang.match('gr') || lang.match('el')) {
@@ -113,7 +105,7 @@ window.addEventListener('load', function () {
     } else {
         changeLang('en');
     }
-})
+}
 
 document.getElementById(ABOUT_LANG_ID).addEventListener('click', function () {
     const element = $('#' + ABOUT_LANG_ID);

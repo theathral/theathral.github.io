@@ -11,7 +11,8 @@
           "Professor <strong>Paris Avgeriou</strong> from the University of Groningen."
         ],
         [
-          "You can find more information about my Bachelor Thesis in \"Portfolio\" section."
+          "You can find more information about my Bachelor Thesis in ",
+          "<a class='text-info' href='#portfolio'>\"Portfolio\"<a> section."
         ]
       ],
       "info": [

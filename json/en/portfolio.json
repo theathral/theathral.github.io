@@ -3,34 +3,6 @@
   "subtext": "Further down, you can find the best projects that I have participated in order of importance.",
   "contents": [
     {
-      "title": "Octopus",
-      "text": [
-        "\"Octopus\" application is an incident management system geared towards small companies. Every user ",
-        "is part of one or more groups in order to acquire specific capabilities inside the program. Furthermore, ",
-        "users can perform, depending on their privileges, the actions below:",
-        "<ul>",
-        "<li>Incident and Request Management (Submission, Case Monitoring, Completion)</li>",
-        "<li>Statistics Monitoring</li>",
-        "<li>Chatting between Users</li>",
-        "<li>Group and Privileges Creation</li>",
-        "<li>Log Files Surveillance</li>",
-        "</ul>",
-        "<br>",
-        "It is offered as SaaS and was created using the \"Laravel\" programming language for advanced ",
-        "security.",
-        "<br>",
-        "<br>",
-        "The application was constructed in collaboration with ",
-        "<a href='https://nmanoukidis.netzapping.gr/' target='_blank' class='text-info'>Nikolaos Manoukidis</a>."
-      ],
-      "href": {
-        "message": "Find more information about the project:",
-        "fa": "<i class='fas fa-external-link-alt'></i>",
-        "link": ""
-      },
-      "date": "November 2020 - Now"
-    },
-    {
       "title": "Bachelor Thesis",
       "text": [
         "My Bachelor Thesis was composed during my Erasmus exchange on the subject of ",
@@ -53,6 +25,34 @@
         "link": "portfolio/Bachelor Thesis.zip"
       },
       "date": "February 2020 - June 2020"
+    },
+    {
+      "title": "Octopus",
+      "text": [
+        "\"Octopus\" application is an incident management system geared towards small companies. Every user ",
+        "is part of one or more groups in order to acquire specific capabilities inside the program. Furthermore, ",
+        "users can perform, depending on their privileges, the actions below:",
+        "<ul>",
+        "<li>Incident and Request Management (Submission, Case Monitoring, Completion)</li>",
+        "<li>Statistics Monitoring</li>",
+        "<li>Chatting between Users</li>",
+        "<li>Group and Privileges Creation</li>",
+        "<li>Log Files Surveillance</li>",
+        "</ul>",
+        "<br>",
+        "It is offered as SaaS and was created using the \"Laravel\" programming language for advanced ",
+        "security.",
+        "<br>",
+        "<br>",
+        "The application was built in collaboration with ",
+        "<a href='https://nmanoukidis.netzapping.gr/' target='_blank' class='text-info'>Nikolaos Manoukidis</a>."
+      ],
+      "href": {
+        "message": "Find more information about the project:",
+        "fa": "<i class='fas fa-external-link-alt'></i>",
+        "link": ""
+      },
+      "date": "November 2020 - Now"
     },
     {
       "title": "On Duty Hospitals Website (Flask)",
