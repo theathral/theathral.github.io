@@ -6,7 +6,7 @@
       "title": "Bachelor Thesis",
       "text": [
         "My Bachelor Thesis was composed during my Erasmus exchange on the subject of ",
-        ",<strong>\"Measuring Parent Centrality in Java Packages\"</strong>. The supervisor was Prof. Paris Avgeriou ",
+        "<strong>\"Measuring Parent Centrality in Java Packages\"</strong>. The supervisor was Prof. Paris Avgeriou ",
         "from the University of Groningen. In particular, the thesis implements a well-known metric among ",
         "software engineers, <strong>Parent Centrality</strong>, inside an existing tool, <strong>ASTracker</strong>. ",
         "Moreover, the paper interprets the results to conclude if this metric is useful.",
@@ -27,7 +27,7 @@
       "date": "February 2020 - June 2020"
     },
     {
-      "title": "Octopus",
+      "title": "<img src='assets/img/octopus.png' alt='Octopus Logo' style='height: 35px'> Octopus",
       "text": [
         "\"Octopus\" application is an incident management system geared towards small companies. Every user ",
         "is part of one or more groups in order to acquire specific capabilities inside the program. Furthermore, ",
