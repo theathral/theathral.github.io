@@ -127,10 +127,10 @@ function changeLang(lang) {
     $('html').attr('lang', lang);
 
     aboutFetch(cur_path + '/about.json')
-    workExperienceFetch(cur_path + '/workExperience.json');
-    voluntaryExperienceFetch(cur_path + '/voluntaryExperience.json');
     educationFetch(cur_path + '/education.json');
     certificationsFetch(cur_path + '/certifications.json');
+    workExperienceFetch(cur_path + '/workExperience.json');
+    voluntaryExperienceFetch(cur_path + '/voluntaryExperience.json');
     skillsFetch(cur_path + '/skills.json');
     portfolioFetch(cur_path + '/portfolio.json');
     interestsFetch(cur_path + '/interests.json');
