@@ -2,6 +2,17 @@
   "title": "Εργασιακή Εμπειρία",
   "contents": [
     {
+      "position": "ServiceNow Engineer",
+      "company": "Empedus&nbsp;<a href='https://empedus.com/' target='_blank'><i class='fas fa-link'></i></a>",
+      "info": [
+        {
+          "fa" : "<i class='fas fa-cog'></i>",
+          "text" : "Σχεδιασμός συστημάτων διοίκησης και υλοποίησή τους εντός του ServiceNow."
+        }
+      ],
+      "date": "Δεκέμβριος 2020 - Σήμερα"
+    },
+    {
       "position": "Ναυαγοσώστης Ανοιχτής Θαλάσσης",
       "company": "BAYLINE SERVICES",
       "info": [

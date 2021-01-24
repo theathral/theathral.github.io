@@ -2,6 +2,17 @@
   "title": "Work Experience",
   "contents": [
     {
+      "position": "ServiceNow Engineer",
+      "company": "Empedus&nbsp;<a href='https://empedus.com/' target='_blank'><i class='fas fa-link'></i></a>",
+      "info": [
+        {
+          "fa" : "<i class='fas fa-cog'></i>",
+          "text" : "Designing management systems and implementing them in ServiceNow."
+        }
+      ],
+      "date": "December 2020 - Now"
+    },
+    {
       "position": "Open Water Lifeguard",
       "company": "BAYLINE SERVICES",
       "info": [
