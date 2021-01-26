@@ -76,7 +76,7 @@
         "individual projects, as well as the analysis of the results.",
         "<br>",
         "The second exercise of the project refers to the selection and economic analysis of two big projects, ",
-        "based on the \"Return on Investment\" value after 7 years."
+        "based on the \"Return of Investment\" value after 7 years."
       ],
       "href": {
         "message": "Please find the pronunciation and the solution of the project (only in greek):",
@@ -102,12 +102,12 @@
       "date": "December 2019"
     },
     {
-      "title": "Maze Solution (JADE)",
+      "title": "Treasure Hunt (JADE)",
       "text": [
         "Bachelor level project during \"Multi-Agent Systems\" course. The goal of the project is the creation of ",
-        "a multi-agent system using JADE technology. The program implements a maze game, where \"agents\" of the ",
-        "program are collaborating to find the exit. In order for the goal to be accomplished, the algorithms ",
-        "\"Best-First Search\" and \"A* Search\" are, also, being used."
+        "a multi-agent system using JADE technology. The program implements a treasure hunt game, where \"Agents\" of ",
+        "the program are collaborating to find the hidden treasures. In order for the goal to be accomplished, the ",
+        "algorithms \"Best-First Search\" and \"A* Search\" are, also, being used."
       ],
       "href": {
         "message": "Please, find more information about the project:",
