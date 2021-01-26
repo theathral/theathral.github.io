@@ -2,13 +2,14 @@
   "title": "Education",
   "contents": [
     {
-      "diploma": "<i class='fas fa-user-graduate'></i>&nbsp;BSc in Computer Science",
+      "diploma": "<i class='fas fa-user-graduate'></i>&nbsp;BSc (Ptychion) in Computer Science",
       "organization": "Aristotle University of Thessaloniki",
       "details": [
         [
           "The Bachelor Thesis was composed during my Erasmus exchange on the subject of ",
-          "\"Measuring Parent Centrality in Java Packages\". The supervisor was ",
-          "Professor <strong>Paris Avgeriou</strong> from the University of Groningen."
+          "\"Measuring Parent Centrality in Java Packages\". The supervisors were ",
+          "Professor <strong>Paris Avgeriou</strong> from the University of Groningen and ",
+          "Professor <strong>Ioannis Stamelos</strong> from the Aristotle University of Thessaloniki."
         ],
         [
           "You can find more information about my Bachelor Thesis in ",
