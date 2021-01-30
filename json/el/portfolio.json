@@ -6,9 +6,10 @@
       "title": "Πτυχιακή Εργασία",
       "text": [
         "Η πτυχιακή μου εργασία συνετάχθη κατά τη διάρκεια του προγράμματος Erasmus με θέμα ",
-        "<strong>\"Measuring Parent Centrality in Java Packages\"</strong>. Επιβλέπων ήταν ο Καθηγητής Paris Avgeriou ",
-        "από το Πανεπιστήμιο του Groningen. Συγκεκριμένα, η πτυχιακή πραγματεύεται την εφαρμογή μια γνωστής μετρικής στους ",
-        "τεχνολόγους πληροφορικής, <strong>Parent Centrality</strong>, σε ένα υπάρχον εργαλείο, <strong>ASTracker</strong>. ",
+        "<strong>\"Measuring Parent Centrality in Java Packages\"</strong>. Επιβλέποντες ήταν οι Καθηγητές Paris Avgeriou ",
+        "από το Πανεπιστήμιο του Groningen και Ιωάννης Σταμέλος από το Αριστοτέλειο Πανεπιστήμιο Θεσσαλονίκης. ",
+        "Συγκεκριμένα, η πτυχιακή πραγματεύεται την εφαρμογή μια γνωστής μετρικής στους τεχνολόγους πληροφορικής, ",
+        "<strong>Parent Centrality</strong>, σε ένα υπάρχον εργαλείο, <strong>ASTracker</strong>. ",
         "Επιπροσθέτως, η εργασία ερμηνεύει τα αποτελέσματα για να αποφανθεί αν η μετρική είναι χρήσιμη.",
         "<br>",
         "Οι ειδικοί στην τεχνολογία λογισμικού γνωρίζουν ότι μέσα στον πηγαίο κώδικα ενός προγράμματος υπάρχουν κάποιες ",
@@ -131,7 +132,7 @@
         "<a href='https://www.latex-project.org/' target='_blank' class='text-info blockquote-footer'>The LaTeX Project</a>"
       ],
       "href": {
-        "message": "Παρακαλώ, βρείτε περισσότερες πληροφορίες για τΟ πρότυπο:",
+        "message": "Παρακαλώ, βρείτε περισσότερες πληροφορίες για το πρότυπο:",
         "fa": "<i class='fas fa-external-link-alt'></i>",
         "link": "https://bit.ly/3jUZ51J"
       },

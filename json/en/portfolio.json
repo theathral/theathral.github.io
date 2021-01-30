@@ -7,8 +7,9 @@
       "text": [
         "My Bachelor Thesis was composed during my Erasmus exchange on the subject of ",
         "<strong>\"Measuring Parent Centrality in Java Packages\"</strong>. The supervisor was Prof. Paris Avgeriou ",
-        "from the University of Groningen. In particular, the thesis implements a well-known metric among ",
-        "software engineers, <strong>Parent Centrality</strong>, inside an existing tool, <strong>ASTracker</strong>. ",
+        "from the University of Groningen and Ioannis Stamelos from the Aristotle Uvinersity of Thessaloniki. In ",
+        "particular, the thesis implements a well-known metric among software engineers, ",
+        "<strong>Parent Centrality</strong>, inside an existing tool, <strong>ASTracker</strong>. ",
         "Moreover, the paper interprets the results to conclude if this metric is useful.",
         "<br>",
         "Experts in software engineering are aware of the fact that inside the source code of a program, ",
