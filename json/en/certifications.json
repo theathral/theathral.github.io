@@ -2,6 +2,18 @@
   "title": "Certifications & Seminars",
   "contents": [
     {
+      "diploma": "<i class='fas fa-certificate'></i>&nbsp;ITIL 4 Foundation",
+      "organization": "PeopleCert",
+      "details": [],
+      "info": [
+        {
+          "fa": "<i class='fas fa-wrench'></i>",
+          "text": "ITIL 4 Foundation enables candidates to look at IT Service Management through an end-to-end operating model for the creation, delivery and continual improvement of tech-enabled products and services."
+        }
+      ],
+      "date": "April 2021"
+    },
+    {
       "diploma": "<i class='fas fa-certificate'></i>&nbsp;ServiceNow Certified System Administrator",
       "organization": "ServiceNow",
       "details": [],

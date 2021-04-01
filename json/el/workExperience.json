@@ -3,7 +3,7 @@
   "contents": [
     {
       "position": "ServiceNow Engineer",
-      "company": "Empedus&nbsp;<a href='https://empedus.com/' target='_blank'><i class='fas fa-link'></i></a>",
+      "company": "Empedus&nbsp;<a href='https://empedus.com/' target='_blank'><i class='fas fa-link text-info'></i></a>",
       "info": [
         {
           "fa" : "<i class='fas fa-cog'></i>",
