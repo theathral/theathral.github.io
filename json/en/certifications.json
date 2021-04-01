@@ -14,6 +14,37 @@
       "date": "April 2021"
     },
     {
+      "diploma": "<i class='fas fa-certificate'></i>&nbsp;IELTS",
+      "organization": "British Council",
+      "details": [
+        "The International English Language Testing System, or IELTS, is an international standardized test of English language proficiency for non-native English language speakers.",
+        "An IELTS result or Test Report Form is issued with a score from \"band 1\" (\"non-user\") to \"band 9\" (\"expert user\")."
+      ],
+      "info": [
+        {
+          "fa": "<i class='fas fa-certificate'></i>",
+          "text": "Overall: 7.5"
+        },
+        {
+          "fa": "<i class='fas fa-headphones'></i>",
+          "text": "Listening: 7.5"
+        },
+        {
+          "fa": "<i class='fas fa-glasses'></i>",
+          "text": "Reading: 7.5"
+        },
+        {
+          "fa": "<i class='fas fa-pen-fancy'></i>",
+          "text": "Writing: 6.5"
+        },
+        {
+          "fa": "<i class='fas fa-microphone'></i>",
+          "text": "Speaking: 7.5"
+        }
+      ],
+      "date": "March 2021"
+    },
+    {
       "diploma": "<i class='fas fa-certificate'></i>&nbsp;ServiceNow Certified System Administrator",
       "organization": "ServiceNow",
       "details": [],
