@@ -2,6 +2,18 @@
   "title": "Education",
   "contents": [
     {
+      "diploma": "MSc in Management of Technology",
+      "organization": "Technische Universiteit (TU) Delft ",
+      "details": [],
+      "info": [
+        {
+          "fa": "<i class='fas fa-hourglass-half'></i>",
+          "text": "Minimum Attendance Duration: 2 Years"
+        }
+      ],
+      "date": "September 2021 - Present"
+    },
+    {
       "diploma": "<i class='fas fa-user-graduate'></i>&nbsp;BSc (Ptychion) in Computer Science",
       "organization": "Aristotle University of Thessaloniki",
       "details": [

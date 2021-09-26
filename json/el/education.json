@@ -2,6 +2,18 @@
   "title": "Εκπαίδευση",
   "contents": [
     {
+      "diploma": "MSc Management of Technology",
+      "organization": "Technische Universiteit (TU) Delft ",
+      "details": [],
+      "info": [
+        {
+          "fa": "<i class='fas fa-hourglass-half'></i>",
+          "text": "Ελάχιστος Χρόνος Φοίτησης: 2 Χρόνια"
+        }
+      ],
+      "date": "Σεπτέμβριος 2021 - Σήμερα"
+    },
+    {
       "diploma": "<i class='fas fa-user-graduate'></i>&nbsp;Πτυχίο Πληροφορικής",
       "organization": "Αριστοτέλειο Πανεπιστήμιο Θεσσαλονίκης",
       "details": [

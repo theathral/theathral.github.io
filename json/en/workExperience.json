@@ -2,48 +2,26 @@
   "title": "Work Experience",
   "contents": [
     {
-      "position": "ServiceNow Engineer",
-      "company": "Empedus&nbsp;<a href='https://empedus.com/' target='_blank'><i class='fas fa-link text-info'></i></a>",
-      "info": [
-        {
-          "fa" : "<i class='fas fa-cog'></i>",
-          "text" : "Designing management systems and implementing them in ServiceNow platform."
-        }
-      ],
-      "date": "December 2020 - Present"
-    },
-    {
-      "position": "Open Water Lifeguard",
-      "company": "BAYLINE SERVICES",
-      "info": [
-        {
-          "fa" : "<i class='fas fa-water'></i>",
-          "text" : "Open Water Lifeguard at Chalkidiki, Greece"
-        }
-      ],
-      "date": "September 2020"
-    },
-    {
-      "position": "Pool Lifeguard",
+      "position": "Open Water and Pool Lifeguard",
       "company": "Yuppi Camp",
       "info": [
         {
-          "fa" : "<i class='fas fa-swimming-pool'></i>",
-          "text" : "Pool Lifeguard at children's camp"
+          "fa": "<i class='fas fa-swimming-pool'></i>",
+          "text": "Open Water and Pool Lifeguard at children's camp"
         }
       ],
-      "date": "July 2020 - August 2020"
+      "date": "2020 - Present (Summer - Autumn)"
     },
     {
       "position": "Open Water Lifeguard",
       "company": "BAYLINE SERVICES",
       "info": [
         {
-          "fa" : "<i class='fas fa-water'></i>",
-          "text" : "Open Water Lifeguard at Skiathos, Greece"
+          "fa": "<i class='fas fa-water'></i>",
+          "text": "Open Water Lifeguard at Skiathos and Chalkidiki, Greece"
         }
       ],
-      "date": "June 2019 - October 2019"
+      "date": "2019 - Present (Summer - Autumn)"
     }
   ]
 }
