@@ -1,14 +1,20 @@
 {
-  "last_change": "(Last update: 026-Sept-2021)",
+  "last_change": "(Last update: 16-Oct-2021)",
   "title": "About",
   "photo_alt": "Profile Photo",
   "first_name": "Theodosios",
   "last_name": "Athananakis",
-  "place": "Thessaloniki, Greece",
-  "tel": {
-    "phone": "(+30) 698 363 0792",
-    "href": "+306983630792"
-  },
+  "place": "Delft, The Netherlands",
+  "tel": [
+    {
+      "phone": "(+30)&nbsp;698&nbsp;363&nbsp;0792",
+      "href": "+306983630792"
+    },
+    {
+      "phone": "(+31)&nbsp;6&nbsp;51&nbsp;102&nbsp;457",
+      "href": "+31651102457"
+    }
+  ],
   "email": "th.athanasakis@gmail.com",
   "about": [
     "Hi!",

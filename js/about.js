@@ -23,8 +23,7 @@ function aboutDiv(json) {
     let first_name = json.first_name;
     let last_name = json.last_name;
     let place = json.place;
-    let phone = json.tel.phone;
-    let phone_href = json.tel.href;
+    let phone = json.tel;
     let email = json.email;
     let about = json.about;
     let social = json.social;
@@ -54,8 +53,12 @@ function aboutDiv(json) {
         place,
         ' · ',
         $('<a/>').addClass('text-black-50')
-            .attr('href', 'tel:' + phone_href)
-            .append(phone),
+            .attr('href', 'tel:' + phone[0].href)
+            .append(phone[0].phone),
+        ' · ',
+        $('<a/>').addClass('text-black-50')
+            .attr('href', 'tel:' + phone[1].href)
+            .append(phone[1].phone),
         ' · ',
         $('<a/>').addClass('text-info')
             .attr('href', 'mailto:' + email)

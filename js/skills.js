@@ -4,6 +4,9 @@ const MAX_GRADE = 5
 function score(grade) {
     let str = '&emsp;';
 
+    if (!grade)
+        return;
+
     if (!Number.isInteger(grade))
         return str + grade;
 

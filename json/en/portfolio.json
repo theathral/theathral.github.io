@@ -49,9 +49,7 @@
         "<a href='https://nmanoukidis.netzapping.gr/' target='_blank' class='text-info'>Nikolaos Manoukidis</a>."
       ],
       "href": {
-        "message": "Find more information about the project:",
-        "fa": "<i class='fas fa-external-link-alt'></i>",
-        "link": "https://octopus.realbase.gr/"
+        "message": "Find more information about the project: (Discontinued)"
       },
       "date": "November 2020 - January 2021"
     },

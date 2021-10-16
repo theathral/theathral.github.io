@@ -5,94 +5,64 @@
       "part": "Γλώσσες",
       "items": [
         {
-          "fa": "<i class='fas fa-check'></i>",
+          "fa": "<i class='fas fa-stamp'></i>",
           "skill": "Ελληνικά",
           "grade": "Μητρική"
         },
         {
-          "fa": "<i class='fas fa-check'></i>",
+          "fa": "<i class='fas fa-stamp'></i>",
           "skill": "Αγγλικά",
-          "grade": "ECPE (2015)"
+          "grade": "IELTS – 7.5/9 (2021)"
         }
       ]
     },
     {
-      "part": "Γλώσσες Προγραμματισμού & Frameworks",
+      "part": "Κοινωνικές Δεξιότητες",
       "items": [
         {
-          "fa": "<i class='fab fa-java'></i>",
-          "skill": "Java",
-          "grade": 5
+          "fa": "<i class='fas fa-check'></i>",
+          "skill": "Διαχείρηση Χρόνου"
         },
         {
-          "fa": "<i class='fas fa-database'></i>",
-          "skill": "SQL",
-          "grade": 4
+          "fa": "<i class='fas fa-check'></i>",
+          "skill": "Ομαδικότητα"
         },
         {
-          "fa": "<i class='fab fa-laravel'></i>",
-          "skill": "Laravel",
-          "grade": 4
+          "fa": "<i class='fas fa-check'></i>",
+          "skill": "Ενεργητική Ακρόαση"
         },
         {
-          "fa": "<i class='fab fa-bootstrap'></i>",
-          "skill": "Bootstrap 4",
-          "grade": 4
+          "fa": "<i class='fas fa-check'></i>",
+          "skill": "Επίλυση Προβλημάτων"
         },
         {
-          "fa": "<i class='fab fa-html5'></i>",
-          "skill": "Html 5",
-          "grade": 4
+          "fa": "<i class='fas fa-check'></i>",
+          "skill": "Εξομάλυνση Διαφορών"
         },
         {
-          "fa": "<i class='fab fa-css3-alt'></i>",
-          "skill": "CSS 3",
-          "grade": 3
+          "fa": "<i class='fas fa-check'></i>",
+          "skill": "Ενσυναίσθηση"
         },
         {
-          "fa": "<i class='fab fa-js-square'></i>",
-          "skill": "JavaScript",
-          "grade": 3
+          "fa": "<i class='fas fa-check'></i>",
+          "skill": "Σαφής Επικοινωνία"
         },
         {
-          "fa": "<i class='fab fa-php'></i>",
-          "skill": "PHP",
-          "grade": 3
+          "fa": "<i class='fas fa-check'></i>",
+          "skill": "Προσαρμοστικότητα"
         },
         {
-          "fa": "<i class='fab fa-r-project'></i>",
-          "skill": "Γλώσσα R",
-          "grade": 3
+          "fa": "<i class='fas fa-check'></i>",
+          "skill": "Αυτοπεποίθηση"
         },
         {
-          "fa": "<i class='fab fa-python'></i>",
-          "skill": "Python",
-          "grade": 3
-        },
-        {
-          "fa": "<i class='fab fa-python'></i>",
-          "skill": "Flask",
-          "grade": 3
-        },
-        {
-          "fa": "<i class='fab fa-android'></i>",
-          "skill": "Android Studio",
-          "grade": 3
-        },
-        {
-          "fa": "<i class='fas fa-code'></i>",
-          "skill": "C/C++",
-          "grade": 3
-        },
-        {
-          "fa": "<i class='fas fa-code'></i>",
-          "skill": "Prolog / CLIPS",
-          "grade": 3
+          "fa": "<i class='fas fa-check'></i>",
+          "skill": "Αίσθηση του Χιούμορ"
         }
       ]
     },
     {
-      "part": "Εργαλεία Υπολογιστή",
+      "part": "Τεχνικές Δεξιότητες",
       "items": [
         {
           "fa": "<i class='fas fa-file-word'></i>",
@@ -147,6 +117,81 @@
         {
           "fa": "<i class='fas fa-microphone-alt'></i>",
           "skill": "Adobe Audition",
+          "grade": 3
+        }
+      ]
+    },
+    {
+      "part": "Γλώσσες Προγραμματισμού & Frameworks",
+      "items": [
+        {
+          "fa": "<i class='fab fa-java'></i>",
+          "skill": "Java",
+          "grade": 5
+        },
+        {
+          "fa": "<i class='fas fa-database'></i>",
+          "skill": "SQL",
+          "grade": 4
+        },
+        {
+          "fa": "<i class='fab fa-laravel'></i>",
+          "skill": "Laravel",
+          "grade": 4
+        },
+        {
+          "fa": "<i class='fab fa-bootstrap'></i>",
+          "skill": "Bootstrap 4/5",
+          "grade": 4
+        },
+        {
+          "fa": "<i class='fab fa-html5'></i>",
+          "skill": "Html 5",
+          "grade": 4
+        },
+        {
+          "fa": "<i class='fab fa-css3-alt'></i>",
+          "skill": "CSS 3",
+          "grade": 3
+        },
+        {
+          "fa": "<i class='fab fa-js-square'></i>",
+          "skill": "JavaScript",
+          "grade": 3
+        },
+        {
+          "fa": "<i class='fab fa-php'></i>",
+          "skill": "PHP",
+          "grade": 3
+        },
+        {
+          "fa": "<i class='fab fa-r-project'></i>",
+          "skill": "Γλώσσα R",
+          "grade": 3
+        },
+        {
+          "fa": "<i class='fab fa-python'></i>",
+          "skill": "Python",
+          "grade": 3
+        },
+        {
+          "fa": "<i class='fab fa-android'></i>",
+          "skill": "Android Studio",
+          "grade": 3
+        },
+        {
+          "fa": "<i class='fab fa-python'></i>",
+          "skill": "Flask",
+          "grade": 3
+        },
+        {
+          "fa": "<i class='fas fa-code'></i>",
+          "skill": "C/C++",
+          "grade": 3
+        },
+        {
+          "fa": "<i class='fas fa-code'></i>",
+          "skill": "Prolog / CLIPS",
           "grade": 3
         }
       ]

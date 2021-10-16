@@ -49,9 +49,7 @@
         "<a href='https://nmanoukidis.netzapping.gr/' target='_blank' class='text-info'>Νικόλαο Μανουκίδη</a>."
       ],
       "href": {
-        "message": "Βρείτε περισσότερες πληροφορίες για το \"Octopus\":",
-        "fa": "<i class='fas fa-external-link-alt'></i>",
-        "link": "https://octopus.realbase.gr/"
+        "message": "Βρείτε περισσότερες πληροφορίες για το \"Octopus\": (Έχει καταργηθεί)"
       },
       "date": "Νοέμβριος 2020 - Ιανουάριος 2021"
     },

@@ -2,16 +2,28 @@
   "title": "Certifications & Seminars",
   "contents": [
     {
-      "diploma": "<i class='fas fa-certificate'></i>&nbsp;ITIL 4 Foundation",
+      "diploma": "<i class='fas fa-certificate'></i>&nbsp;Certified ITSM Implementation Specialist",
+      "organization": "ServiceNow",
+      "details": [],
+      "info": [
+        {
+          "fa": "<i class='fas fa-wrench'></i>",
+          "text": "The Certified ITSM Implementation Specialist certifies that the owner has the skills and essential knowledge to contribute to the configuration, implementation, and maintenance of ServiceNow ITSM applications."
+        }
+      ],
+      "date": "End of 2021 (Expected)"
+    },
+    {
+      "diploma": "<i class='fas fa-certificate'></i>&nbsp;ITIL4® Foundation",
       "organization": "PeopleCert",
       "details": [],
       "info": [
         {
           "fa": "<i class='fas fa-wrench'></i>",
-          "text": "ITIL 4 Foundation enables candidates to look at IT Service Management through an end-to-end operating model for the creation, delivery and continual improvement of tech-enabled products and services."
+          "text": "ITIL 4 Foundation certifies that the owner is able to look at IT Service Management through an end-to-end operating model for the creation, delivery and continual improvement of tech-enabled products and services."
         }
       ],
-      "date": "April 2021"
+      "date": "March 2021"
     },
     {
       "diploma": "<i class='fas fa-certificate'></i>&nbsp;IELTS",
@@ -51,7 +63,7 @@
       "info": [
         {
           "fa": "<i class='fas fa-wrench'></i>",
-          "text": "The ServiceNow CSN certifies that the owner has the skills and essential knowledge necessary to manage the configuration, implementation, and maintenance of the ServiceNow platform."
+          "text": "The ServiceNow Certified System Administrator certifies that the owner has the skills and essential knowledge necessary to manage the configuration, implementation, and maintenance of the ServiceNow platform."
         }
       ],
       "date": "January 2021"
