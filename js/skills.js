@@ -19,9 +19,7 @@ function score(grade) {
     }
 
     return str;
-}
-
-// #Scores
+}// #Scores
 
 const SKILL_ID = 'skillsLink';
 const SKILL_CONT_ID = 'skillsContent';

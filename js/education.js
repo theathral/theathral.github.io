@@ -20,9 +20,19 @@ function certificationsFetch(path) {
     fetch(path)
         .then(res => res.json())
         .then(data => educationDiv(data, CERT_LINK, CERT_CONT_ID, CERT_PAR_ID, CERT_UL_ID))
-}
+}// #Certifications
 
-// #Certifications
+// Awards
+const AWARD_LINK = 'awardsLink';
+const AWARD_CONT_ID = 'awardsContent';
+const AWARD_PAR_ID = 'awardsParagraph';
+const AWARD_UL_ID = 'awardsList';
+
+function awardsFetch(path) {
+    fetch(path)
+        .then(res => res.json())
+        .then(data => educationDiv(data, AWARD_LINK, AWARD_CONT_ID, AWARD_PAR_ID, AWARD_UL_ID))
+}// #Awards
 
 
 function educationDiv(json, section_id, content_id, par_id, ul_id) {

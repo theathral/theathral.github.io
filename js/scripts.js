@@ -25,20 +25,17 @@ $('.js-scroll-trigger').click(function () {
             return false;
         }
     }
-});
-// #Smooth scrolling using jQuery easing
+});// #Smooth scrolling using jQuery easing
 
 // Closes responsive menu when a scroll trigger link is clicked
 $(".js-scroll-trigger").click(function () {
     $(".navbar-collapse").collapse("hide");
-});
-// #Closes responsive menu when a scroll trigger link is clicked
+});// #Closes responsive menu when a scroll trigger link is clicked
 
 // Activate scrollspy to add active class to navbar items on scroll
 $("body").scrollspy({
     target: "#sideNav",
-});
-// #Activate scrollspy to add active class to navbar items on scroll
+});// #Activate scrollspy to add active class to navbar items on scroll
 
 
 // My scripts //
@@ -64,9 +61,7 @@ $(".underConstructionEn").on("click", function () {
         timerProgressBar: true,
         confirmButtonText: "OK!"
     })
-})
-
-// #Under Construction alert
+})// #Under Construction alert
 
 
 // Sidebar and Section Titles
@@ -81,17 +76,13 @@ function initDiv(section_id, content_id, title) {
 function sideLi(href, text) {
     emptyDiv(href);
     $('#' + href).append(text);
-}
-
-// #Sidebar and Section Titles
+}// #Sidebar and Section Titles
 
 
 // Empty Divs
 function emptyDiv(id) {
     $('#' + id).empty();
-}
-
-// #Empty Divs
+}// #Empty Divs
 
 // Change Language
 const PATH = 'json/';
@@ -132,9 +123,7 @@ function changeLang(lang) {
     educationFetch(cur_path + '/education.json');
     certificationsFetch(cur_path + '/certifications.json');
     skillsFetch(cur_path + '/skills.json');
+    awardsFetch(cur_path + '/awards.json');
     portfolioFetch(cur_path + '/portfolio.json');
     interestsFetch(cur_path + '/interests.json');
-}
-
-// #Change Language
-
+}// #Change Language

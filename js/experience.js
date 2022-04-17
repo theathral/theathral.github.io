@@ -7,9 +7,7 @@ function workExperienceFetch(path) {
     fetch(path)
         .then(res => res.json())
         .then(data => experienceDiv(data, WORK_EXP_LINK, WORK_EXP_CONT_ID, WORK_EXP_POS_ID))
-}
-
-// #Work Experience
+}// #Work Experience
 
 // Voluntary Experience
 const VOLUNTARY_EXP_LINK = 'volLink';
@@ -20,9 +18,7 @@ function voluntaryExperienceFetch(path) {
     fetch(path)
         .then(res => res.json())
         .then(data => experienceDiv(data, VOLUNTARY_EXP_LINK, VOLUNTARY_EXP_CONT_ID, VOLUNTARY_EXP_POS_ID))
-}
-
-// #Voluntary Experience
+}// #Voluntary Experience
 
 
 function experienceDiv(json, section_id, content_id, pos_id_pre) {
