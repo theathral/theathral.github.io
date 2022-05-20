@@ -123,7 +123,7 @@ function changeLang(lang) {
     educationFetch(cur_path + '/education.json');
     certificationsFetch(cur_path + '/certifications.json');
     skillsFetch(cur_path + '/skills.json');
-    awardsFetch(cur_path + '/awards.json');
+    // awardsFetch(cur_path + '/awards.json');
     portfolioFetch(cur_path + '/portfolio.json');
     interestsFetch(cur_path + '/interests.json');
 }// #Change Language
