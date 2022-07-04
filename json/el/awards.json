@@ -2,16 +2,44 @@
   "title": "Βραβεία, Διαγωνισμοί, Κ.λπ.",
   "contents": [
     {
-      "diploma": "",
-      "organization": "",
+      "diploma": "<i class=\"fa-solid fa-trophy\"></i>&nbsp;Energy Challenge Event",
+      "organization": "TU Delft",
+      "details": [
+        "<em>On 9 June, the TU Delft campus was dominated by students' ideas for the future of energy transition. This year, almost all students paid attention in their education to the transition to a society where the energy supply is more sustainable. A large number of ideas and prototypes were on display on 9 June during the Energy Challenge Event that took place as part of the anniversary of the TU Delft.</em>",
+        "<a href='https://www.tudelft.nl/en/lustrum/energy-challenge/energy-challenge-event' target='_blank' class='text-info blockquote-footer'>TU Delft Energy Challenge Event</a>"
+      ],
+      "info": [
+        {
+          "fa": "<i class=\"fa-solid fa-award\"></i>",
+          "text": "Συμμετοχή στην Τελική Φάση του Πανεπιστημιακού Διαγωνισμού"
+        },
+        {
+          "fa": "<i class=\"fa-solid fa-trophy\"></i>",
+          "text": "Πρώτη Θέση στο Διαγωνισμό της Σχολής"
+        }
+      ],
+      "date": "Ιούνιος 2022"
+    },
+    {
+      "diploma": "International Business Tour",
+      "organization": "TU Delft",
+      "details": [
+        "Το International Business Tour πραγματοποιήθηκε στη Βαρκελώνη της Ισπανίας. Κατά τη διάρκεια του ταξιδιού, μεταπτυχιακοί φοιτητές της σχολής TPM επισκέφτηκαν διάφορες εταιρείες στην Καταλονία για να εξερευνήσουν διεθνείς εταιρείες και να βιώσουν μια νέα κουλτούρα."
+      ],
+      "info": [],
+      "date": "Μάρτιος 2022"
+    },
+    {
+      "diploma": "<i class=\"fa-solid fa-trophy\"></i>&nbsp;TenneT Case Day",
+      "organization": "TU Delft, ESTIEM",
       "details": [],
       "info": [
         {
-          "fa": "",
-          "text": ""
+          "fa": "<i class=\"fa-solid fa-trophy\"></i>",
+          "text": "Πρώτη Θέση στο Διαγωνισμό"
         }
       ],
-      "date": ""
+      "date": "Φεβρουάριος 2022"
     }
   ]
 }

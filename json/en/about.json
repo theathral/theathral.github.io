@@ -1,5 +1,5 @@
 {
-  "last_change": "(Last update: 10-Jan-2022)",
+  "last_change": "(Last update: 07-Jul-2022)",
   "title": "About",
   "photo_alt": "Profile Photo",
   "first_name": "Theodosios",
@@ -19,7 +19,7 @@
   "about": [
     "Hi!",
     "<br>",
-    "My name is Theodosis, I am 23 years old and a master's student in Management of Technology at TU Delft. ",
+    "My name is Theodosis, I am 24 years old and a master's student in Management of Technology at TU Delft. ",
     "On this page, you can find information about my education, my work experience, my portfolio etc.",
     "<br>",
     "<br>",
@@ -49,11 +49,6 @@
       "title": "Instagram",
       "href": "https://www.instagram.com/theodosis_ath/",
       "fa": "<i class='fab fa-instagram'></i>"
-    },
-    {
-      "title": "Skype",
-      "href": "https://join.skype.com/invite/jnxzb114kxM1",
-      "fa": "<i class='fab fa-skype'></i>"
     },
     {
       "title": "GitHub",

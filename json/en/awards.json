@@ -2,16 +2,44 @@
   "title": "Awards, Contests, Etc.",
   "contents": [
     {
-      "diploma": "",
-      "organization": "",
+      "diploma": "<i class=\"fa-solid fa-trophy\"></i>&nbsp;Energy Challenge Event",
+      "organization": "TU Delft",
+      "details": [
+        "<em>On 9 June, the TU Delft campus was dominated by students' ideas for the future of energy transition. This year, almost all students paid attention in their education to the transition to a society where the energy supply is more sustainable. A large number of ideas and prototypes were on display on 9 June during the Energy Challenge Event that took place as part of the anniversary of the TU Delft.</em>",
+        "<a href='https://www.tudelft.nl/en/lustrum/energy-challenge/energy-challenge-event' target='_blank' class='text-info blockquote-footer'>TU Delft Energy Challenge Event</a>"
+      ],
+      "info": [
+        {
+          "fa": "<i class=\"fa-solid fa-award\"></i>",
+          "text": "Participation in the University Level Contest"
+        },
+        {
+          "fa": "<i class=\"fa-solid fa-trophy\"></i>",
+          "text": "First Place in the Faculty Level Contest"
+        }
+      ],
+      "date": "June 2022"
+    },
+    {
+      "diploma": "International Business Tour",
+      "organization": "TU Delft",
+      "details": [
+        "The International Business Tour took place in Barcelona, Spain. During the trip, students of the TPM Masters’ faculty visited various companies in the Catalonia to explore international companies and experience a new culture."
+      ],
+      "info": [],
+      "date": "March 2022"
+    },
+    {
+      "diploma": "<i class=\"fa-solid fa-trophy\"></i>&nbsp;TenneT Case Day",
+      "organization": "TU Delft, ESTIEM",
       "details": [],
       "info": [
         {
-          "fa": "",
-          "text": ""
+          "fa": "<i class=\"fa-solid fa-trophy\"></i>",
+          "text": "First Place in the Contest"
         }
       ],
-      "date": ""
+      "date": "February 2022"
     }
   ]
 }

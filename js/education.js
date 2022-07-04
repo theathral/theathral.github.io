@@ -28,11 +28,11 @@ const AWARD_CONT_ID = 'awardsContent';
 const AWARD_PAR_ID = 'awardsParagraph';
 const AWARD_UL_ID = 'awardsList';
 
-// function awardsFetch(path) {
-//     fetch(path)
-//         .then(res => res.json())
-//         .then(data => educationDiv(data, AWARD_LINK, AWARD_CONT_ID, AWARD_PAR_ID, AWARD_UL_ID))
-// }// #Awards
+function awardsFetch(path) {
+    fetch(path)
+        .then(res => res.json())
+        .then(data => educationDiv(data, AWARD_LINK, AWARD_CONT_ID, AWARD_PAR_ID, AWARD_UL_ID))
+}// #Awards
 
 
 function educationDiv(json, section_id, content_id, par_id, ul_id) {
