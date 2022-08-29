@@ -2,6 +2,28 @@
   "title": "Work Experience",
   "contents": [
     {
+      "position": "Mentor of Freshmen",
+      "company": "TU Delft",
+      "info": [
+        {
+          "fa": "<i class='fa-solid fa-school'></i>",
+          "text": "Mentor at first-year students of MSc Management of Technology"
+        }
+      ],
+      "date": "August 2022 - November 2022 (Expected)"
+    },
+    {
+      "position": "Event Planner",
+      "company": "TU Delft",
+      "info": [
+        {
+          "fa": "<i class='fa-solid fa-calendar-days'></i>",
+          "text": "MSc Management of Technology Introduction Week planning for the first-year students at 20-22 of September 2022. The event included trips to Delft, the Hague, and Rotterdam with several activities for the students."
+        }
+      ],
+      "date": "August 2022 - September 2022 (Expected)"
+    },
+    {
       "position": "Open Water and Pool Lifeguard",
       "company": "Yuppi Camp",
       "info": [
