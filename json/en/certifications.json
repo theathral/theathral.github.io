@@ -2,13 +2,13 @@
   "title": "Certifications & Seminars",
   "contents": [
     {
-      "diploma": "<i class='fas fa-certificate'></i>&nbsp;Certified ITSM Implementation Specialist",
+      "diploma": "<i class='fas fa-certificate'></i>&nbsp;ServiceNow Certified Implementation Specialist – IT Service Management",
       "organization": "ServiceNow",
       "details": [],
       "info": [
         {
           "fa": "<i class='fas fa-wrench'></i>",
-          "text": "The Certified ITSM Implementation Specialist certifies that the owner has the skills and essential knowledge to contribute to the configuration, implementation, and maintenance of ServiceNow ITSM applications."
+          "text": "The ServiceNow Certified Implementation Specialist – IT Service Management certifies that the owner has the skills and essential knowledge to contribute to the configuration, implementation, and maintenance of ServiceNow ITSM applications."
         }
       ],
       "date": "August 2022"

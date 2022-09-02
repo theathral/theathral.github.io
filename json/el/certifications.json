@@ -2,13 +2,13 @@
   "title": "Πιστοποιήσεις & Σεμινάρια",
   "contents": [
     {
-      "diploma": "<i class='fas fa-certificate'></i>&nbsp;Certified ITSM Implementation Specialist",
+      "diploma": "<i class='fas fa-certificate'></i>&nbsp;ServiceNow Certified Implementation Specialist – IT Service Management",
       "organization": "ServiceNow",
       "details": [],
       "info": [
         {
           "fa": "<i class='fas fa-wrench'></i>",
-          "text": "Το Certified ITSM Implementation Specialist πιστοποιεί ότι ο κάτοχος έχει τις δεξιότητες και τις απαραίτητες γνώσεις για να συμβάλλει στις ρυθμίσεις, υλοποιήσεις, και συντήρηση των εφαρμογών ITSM της πλατφόρμας ServiceNow."
+          "text": "Το ServiceNow Certified Implementation Specialist – IT Service Management πιστοποιεί ότι ο κάτοχος έχει τις δεξιότητες και τις απαραίτητες γνώσεις για να συμβάλλει στις ρυθμίσεις, υλοποιήσεις, και συντήρηση των εφαρμογών ITSM της πλατφόρμας ServiceNow."
         }
       ],
       "date": "Αύγουστος 2022"
