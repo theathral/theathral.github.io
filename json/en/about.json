@@ -57,7 +57,7 @@
     },
     {
       "title": "WhatsApp",
-      "href": "https://api.whatsapp.com/send?phone=00306983630792",
+      "href": "https://api.whatsapp.com/send?phone=306983630792",
       "fa": "<i class='fab fa-whatsapp'></i>"
     }
   ],
