@@ -2,6 +2,28 @@
   "title": "Work Experience",
   "contents": [
     {
+      "position": "Teaching Assistant",
+      "company": "MSc Management of Technology Department, TU Delft",
+      "info": [
+        {
+          "fa": "<i class='fa-solid fa-chalkboard-user'></i>",
+          "text": "The Teaching Assistant is an individual who assists the teacher in charge with instructional responsibilities."
+        }
+      ],
+      "date": "December 2022 - June 2023 (Expected)"
+    },
+    {
+      "position": "Member and Minutes Taker of the Board of Studies",
+      "company": "Technology Policy and Management Faculty, TU Delft",
+      "info": [
+        {
+          "fa": "<i class='fa-solid fa-people-group'></i>",
+          "text": "The Board of Studies (OC) safeguards the quality of the programmes and is the sounding board for the study programmes at the faculty and has right of approval on parts of the programmes. The OC advises the dean about the education and examination of a programme. The OC also advises the Programme Coordinator about all other aspects of the education in a certain study programme. It can also react to suggestions of students and lecturer."
+        }
+      ],
+      "date": "October 2022 - July 2023 (Expected)"
+    },
+    {
       "position": "Mentor of Freshmen",
       "company": "TU Delft",
       "info": [
@@ -10,7 +32,7 @@
           "text": "Mentor at first-year students of MSc Management of Technology"
         }
       ],
-      "date": "August 2022 - November 2022 (Expected)"
+      "date": "August 2022 - November 2022"
     },
     {
       "position": "Event Planner",
